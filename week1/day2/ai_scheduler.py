@@ -36,7 +36,30 @@ Python 综合作业：AI 推理任务指挥官
 
 1. 新增语音模型 AudioModel，扩充任务列表
 2. 将性能报表写入 report.txt
+3. 用 ThreadPoolExecutor 实现线程池版本
 
+六、思考题（5 分，必写）
+
+1. 多线程写入 records 为什么要加 Lock？不加锁会出现什么问题？
+2. 本案例多线程能提速，纯 CPU 计算场景还能加速吗？为什么？
+3. 父类抛出 NotImplementedError 是什么设计思想，作用是什么？
+
+七、扣分标准
+
+1. 无继承抽象结构 -8 分
+2. 并发未加锁 -6 分
+3. 缺失串行 / 并发任一模式 -7 分
+4. 性能报表信息不全 -4 分
+5. 无注释、格式混乱 2~5 分
+6. 代码报错、日志缺失每项 -3 分
+7. 不交思考题 -5 分
+
+交付文件
+
+1. ai_scheduler.py
+2. 完整运行截图
+3. 思考题文字解答
+4. 以上放在github个人项目地址
 '''
 
 import time
@@ -151,12 +174,12 @@ class Scheduler:
     # 生成报表
     def report(self):
         report_lines = []
-        header = f"{'模型名称':<12} | {'模型类型':<8} | {'输入数据':<15} | {'耗时 (秒)':<8} | {'推理结果'}"
+        header = f"{'模型名称'} | {'模型类型'} | {'输入数据'} | {'耗时 (秒)'} | {'推理结果'}"
         report_lines.append(header)
         report_lines.append("-" * 80)
         
         for r in self.records:
-            line = f"{r['model_name']:<12} | {r['model_type']:<8} | {r['input']:<15} | {r['cost']:<10.2f} | {r['result']}"
+            line = f"{r['model_name']} | {r['model_type']} | {r['input']} | {r['cost']} | {r['result']}"
             report_lines.append(line)
             
         report_content = "\n".join(report_lines)
@@ -167,12 +190,12 @@ class Scheduler:
 def main():
     """主逻辑：初始化任务，运行并对比性能，生成最终报告。"""
     # 1. 初始化各类模型
-    gpt = TextModel("GPT-4o")
-    deepseek = TextModel("DeepSeek-R1")
-    yolo = ImageModel("YOLO-v11")
-    resnet = ImageModel("ResNet-50")
-    whisper = AudioModel("Whisper-v3")
-    sensevoice = AudioModel("SenseVoice")
+    gpt = TextModel("GPT")
+    deepseek = TextModel("DeepSeek")
+    yolo = ImageModel("YOLO")
+    resnet = ImageModel("Image2")
+    whisper = AudioModel("Whisper")
+    sensevoice = AudioModel("QWEN-TTS-FLASH")
 
     # 2. 构造 6 条混合用户任务 (Text * 2, Image * 2, Audio * 2)
     tasks = [
