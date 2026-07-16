@@ -361,3 +361,92 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# ==========================================
+# 1. Python 运行缓存与编译文件
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 扩展文件
+*.so
+
+# Distribution / Packaging (打包与发布)
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# 2. 虚拟环境 (Virtual Environments)
+# ==========================================
+# 常见的虚拟环境目录名
+.venv/
+venv/
+ENV/
+env/
+target/
+.python-version
+
+# Poetry 虚拟环境
+.poetry/
+# Pipenv 环境
+.pipenv/
+
+# ==========================================
+# 3. 环境变量与敏感信息 (Security)
+# ==========================================
+.env
+.yaml
+.yml
+# 如果有些配置必须上传，建议保留模板文件，如 .env.example
+
+# ==========================================
+# 4. 单元测试、覆盖率与代码分析 (Testing & Linting)
+# ==========================================
+.htmlcov/
+.tox/
+.nosenv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.black/
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# ==========================================
+# 5. IDE 与编辑器配置 (IDE & Editors)
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
