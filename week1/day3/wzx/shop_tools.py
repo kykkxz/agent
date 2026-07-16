@@ -6,6 +6,9 @@ global_stock =  {"珍珠奶茶": 50, "杨枝甘露": 30, "芝士葡萄": 40, "�
 def check_positive(num):
     return num > 0 
 
+def calc_total_price(price, num_totle) -> float:
+    return price * num_totle
+
 def save_order_with_with(oder_info:str):
     with open("order.txt", "a", encoding="utf-8") as f:
         f.write(oder_info + "\n")
