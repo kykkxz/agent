@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ company.name }} CMS{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
+</head>
+<body>
+    <main class="shell">
+        <nav class="nav" aria-label="主导航">
+            <a class="brand" href="/">
+                <span class="brand-mark">W</span>
+                <span>{{ company.name }}</span>
+            </a>
+            <div class="nav-links">
+                <a class="pill" href="/">官网首页</a>
+                <a class="pill" href="/api/news">新闻 API</a>
+                <a class="pill primary" href="/admin">内容后台</a>
+            </div>
+        </nav>
+        {% block content %}{% endblock %}
+    </main>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

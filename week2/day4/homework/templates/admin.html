@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}后台管理｜{{ company.name }}{% endblock %}
+
+{% block content %}
+{% if not is_admin %}
+<section class="hero">
+    <div>
+        <div class="eyebrow">Admin Login</div>
+        <h1>内容后台</h1>
+        <p class="lead">管理员登录后可以发布、删除新闻，前台官网与接口会同步读取 SQLite 数据库内容。</p>
+    </div>
+    <form class="panel" id="loginForm">
+        <label for="username">管理员账号</label>
+        <input id="username" name="username" value="admin" autocomplete="username">
+        <label for="password">管理员密码</label>
+        <input id="password" name="password" value="admin123" type="password" autocomplete="current-password">
+        <button type="submit">登录后台</button>
+        <div class="toast" id="loginToast"></div>
+    </form>
+</section>
+{% else %}
+<section class="section-title">
+    <div>
+        <div class="eyebrow">Content Console</div>
+        <h2>新闻内容管理</h2>
+    </div>
+    <a class="pill primary" href="/admin/logout">退出登录</a>
+</section>
+<section class="admin-layout">
+    <form class="panel" id="newsForm">
+        <h2>发布新闻</h2>
+        <label for="title">标题</label>
+        <input id="title" name="title" required>
+        <label for="category">分类</label>
+        <input id="category" name="category" value="公司公告" required>
+        <label for="content">内容</label>
+        <textarea id="content" name="content" required></textarea>
+        <button type="submit">发布</button>
+        <div class="toast" id="newsToast"></div>
+    </form>
+    <section class="panel">
+        <h2>新闻列表</h2>
+        <div id="newsList"></div>
+    </section>
+</section>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+{% endblock %}

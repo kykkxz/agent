@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}{{ news.title }}｜{{ company.name }}{% endblock %}
+
+{% block content %}
+<article class="article">
+    <span class="tag">{{ news.category }}</span>
+    <h1>{{ news.title }}</h1>
+    <div class="meta">{{ news.published_at }}{% if news.author %} · {{ news.author }}{% endif %}</div>
+    <p>{{ news.content }}</p>
+    <a class="pill article-back" href="/">返回首页</a>
+</article>
+{% endblock %}

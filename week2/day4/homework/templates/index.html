@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}{{ company.name }}｜企业官网 CMS{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div>
+        <div class="eyebrow">AI Industry Operation CMS</div>
+        <h1>数字产业运营，从内容开始。</h1>
+        <p class="lead">{{ company.description }}</p>
+        <div class="nav-links hero-actions">
+            <a class="pill primary" href="#news">查看动态</a>
+            <a class="pill" href="/admin">进入后台</a>
+        </div>
+    </div>
+    <aside class="hero-card">
+        <span class="tag">运营看板</span>
+        <h2>一套轻量 CMS，覆盖官网展示、新闻发布、管理员权限与数据库持久化。</h2>
+        <div class="metric-grid">
+            <div class="metric"><strong>{{ news_count }}</strong><span>新闻内容</span></div>
+            <div class="metric"><strong>4</strong><span>核心接口</span></div>
+            <div class="metric"><strong>1</strong><span>后台入口</span></div>
+        </div>
+    </aside>
+</section>
+
+<section id="news">
+    <div class="section-title">
+        <h2>最新新闻</h2>
+        <span class="meta">按发布时间倒序展示最近 3 条</span>
+    </div>
+    <div class="news-grid">
+        {% for item in latest_news %}
+        <a class="news-card" href="/news/{{ item.id }}">
+            <span class="tag">{{ item.category }}</span>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.content[:92] }}{% if item.content|length > 92 %}...{% endif %}</p>
+            <div class="meta">{{ item.published_at }} · {{ item.author }}</div>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
