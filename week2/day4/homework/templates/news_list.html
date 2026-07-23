@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}新闻列表｜{{ company.name }}{% endblock %}
+
+{% block content %}
+<section class="page-hero">
+    <div>
+        <div class="eyebrow">Newsroom</div>
+        <h1>新闻列表</h1>
+        <p class="lead">集中浏览 {{ company.name }} 的公司动态、产品新闻与合作公告，共 {{ news_count }} 条内容。</p>
+    </div>
+    <div class="hero-card compact-card">
+        <span class="tag">按发布时间倒序</span>
+        <h2>{{ news_count }} 条新闻正在展示</h2>
+        <p class="meta">接口访问仍会在非浏览器请求下返回 JSON，方便 Postman、curl 或前端脚本调用。</p>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>全部动态</h2>
+        <span class="meta">点击卡片查看详情</span>
+    </div>
+
+    {% if news_list %}
+    <div class="news-list">
+        {% for item in news_list %}
+        <a class="news-list-item" href="/news/{{ item.id }}">
+            <div>
+                <span class="tag">{{ item.category }}</span>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.content[:150] }}{% if item.content|length > 150 %}...{% endif %}</p>
+            </div>
+            <div class="news-list-meta">
+                <span>{{ item.published_at }}</span>
+                <span>{{ item.author }}</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="empty-state">
+        <span class="tag">暂无新闻</span>
+        <h3>还没有可展示的新闻内容</h3>
+        <p class="meta">可以进入内容后台发布第一条新闻。</p>
+        <a class="pill primary" href="/admin">进入后台</a>
+    </div>
+    {% endif %}
+</section>
+{% endblock %}

@@ -8,6 +8,9 @@
     <h1>{{ news.title }}</h1>
     <div class="meta">{{ news.published_at }}{% if news.author %} · {{ news.author }}{% endif %}</div>
     <p>{{ news.content }}</p>
-    <a class="pill article-back" href="/">返回首页</a>
+    <div class="article-actions">
+        <a class="pill" href="/api/news">返回新闻列表</a>
+        <a class="pill article-back" href="/">返回首页</a>
+    </div>
 </article>
 {% endblock %}

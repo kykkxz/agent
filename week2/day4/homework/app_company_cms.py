@@ -262,7 +262,7 @@ def admin_logout():
 @app.route("/api/news", methods=["GET"])
 def list_news():
     '''
-    测试接口
+    新闻列表接口
     `GET /api/news`：获取新闻列表（支持按发布时间倒序）
     '''
     with Session(ENGINE) as db_session:
@@ -270,7 +270,17 @@ def list_news():
             select(News).order_by(News.published_at.desc())
         ).all()
 
-    return jsonify({"code": 200, "data": [news_to_dict(news) for news in news_list]})
+    news_data = [news_to_dict(news) for news in news_list]
+
+    if wants_html():
+        return render_template(
+            "news_list.html",
+            company=company_info,
+            news_list=news_data,
+            news_count=len(news_data),
+        )
+
+    return jsonify({"code": 200, "data": news_data})
 
 
 @app.route("/api/news/<int:news_id>", methods=["GET"])

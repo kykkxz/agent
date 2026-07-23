@@ -104,6 +104,14 @@ a {
     padding: 56px 0 72px;
 }
 
+.page-hero {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 32px;
+    align-items: end;
+    padding: 50px 0 34px;
+}
+
 .eyebrow {
     color: var(--brand);
     font-family: "Trebuchet MS", "Microsoft YaHei", sans-serif;
@@ -144,6 +152,16 @@ h1 {
     position: relative;
     padding: 30px;
     border-radius: 34px;
+}
+
+.compact-card {
+    padding: 24px;
+}
+
+.compact-card h2 {
+    margin: 14px 0 12px;
+    font-size: 30px;
+    line-height: 1.15;
 }
 
 .hero-card::before {
@@ -236,6 +254,67 @@ label {
     line-height: 1.75;
 }
 
+.news-list {
+    display: grid;
+    gap: 16px;
+    padding-bottom: 70px;
+}
+
+.news-list-item {
+    display: grid;
+    grid-template-columns: 1fr 190px;
+    gap: 24px;
+    padding: 24px;
+    border: 1px solid var(--line);
+    border-radius: 28px;
+    background: var(--panel);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(18px);
+    transition: transform 180ms ease, border-color 180ms ease;
+}
+
+.news-list-item:hover {
+    transform: translateX(6px);
+    border-color: rgba(94, 234, 212, 0.45);
+}
+
+.news-list-item h3 {
+    margin: 16px 0 10px;
+    font-size: 28px;
+    line-height: 1.22;
+}
+
+.news-list-item p {
+    max-width: 780px;
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.75;
+}
+
+.news-list-meta {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--muted);
+    font-family: "Trebuchet MS", "Microsoft YaHei", sans-serif;
+    font-size: 13px;
+}
+
+.empty-state {
+    max-width: 680px;
+    padding: 34px;
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    background: var(--panel);
+    box-shadow: var(--shadow);
+}
+
+.empty-state h3 {
+    margin: 16px 0 8px;
+    font-size: 30px;
+}
+
 .meta {
     font-family: "Trebuchet MS", "Microsoft YaHei", sans-serif;
     font-size: 13px;
@@ -255,6 +334,17 @@ label {
 .article-back {
     display: inline-flex;
     margin-top: 24px;
+}
+
+.article-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.article-actions .article-back {
+    margin-top: 0;
 }
 
 .admin-layout {
@@ -335,9 +425,16 @@ button.danger {
 
 @media (max-width: 820px) {
     .hero,
+    .page-hero,
     .admin-layout,
-    .news-grid {
+    .news-grid,
+    .news-list-item {
         grid-template-columns: 1fr;
+    }
+
+    .news-list-meta {
+        align-items: flex-start;
+        gap: 6px;
     }
 
     .metric-grid {
@@ -356,7 +453,15 @@ button.danger {
         transition: none;
     }
 
+    .news-list-item {
+        transition: none;
+    }
+
     .news-card:hover {
+        transform: none;
+    }
+
+    .news-list-item:hover {
         transform: none;
     }
 }
