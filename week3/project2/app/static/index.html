@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INSIGHT / 保险精准营销</title>
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+    <div id="login-shell" class="login-shell">
+        <form id="login-form" class="login-panel" novalidate>
+            <p class="eyebrow">INSIGHT / INSURANCE AI</p>
+            <h1>精准营销<br>控制台</h1>
+            <p class="muted">客户洞察、模型排序与个性化触达。</p>
+            <label>用户名<input id="username" autocomplete="username" required value="admin"></label>
+            <label>密码<input id="password" type="password" autocomplete="current-password" required value="admin123"></label>
+            <p id="login-error" class="error" hidden></p>
+            <button class="primary full" type="submit">进入控制台</button>
+            <button id="register-button" class="text-button" type="button">注册普通用户</button>
+        </form>
+        <aside class="login-aside" aria-hidden="true">
+            <span>01</span><strong>识别<br>高潜客户</strong><span>02</span><strong>生成<br>个性化邮件</strong>
+        </aside>
+    </div>
+
+    <div id="app-shell" class="app-shell" hidden>
+        <aside class="sidebar" aria-label="应用导航">
+            <div class="brand"><span>INSIGHT</span><small>保险精准营销</small></div>
+            <nav id="navigation" class="navigation" aria-label="主导航"></nav>
+            <div class="sidebar-footer"><span id="current-user"></span><button id="logout-button" class="icon-button" title="退出登录" aria-label="退出登录">&#8594;</button></div>
+        </aside>
+        <main class="app-main">
+            <header class="topbar"><p id="page-kicker">OVERVIEW</p><div id="toast" class="toast" role="status" aria-live="polite"></div></header>
+            <section id="view" class="view" aria-live="polite" aria-busy="false"></section>
+        </main>
+    </div>
+    <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

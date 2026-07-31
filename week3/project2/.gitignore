@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.basedpyright/
+.test-tmp/
+server-*.log
+.env
+instance/
+data/models/*.joblib
+!data/models/.gitkeep

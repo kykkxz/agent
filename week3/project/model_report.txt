@@ -1,0 +1,83 @@
+XGBoost 车险响应预测建模报告
+========================================
+
+一、数据与建模设置
+- 输入文件: data_preprocessed.csv
+- 样本量: 381109
+- 原始特征列数: 54
+- 模型训练特征数: 59
+- 训练集样本数: 304887
+- 测试集样本数: 76222
+- Response=0 数量: 334399
+- Response=1 数量: 46710
+- negative / positive 比例: 7.1590
+- XGBoost scale_pos_weight: 7.1590
+
+二、可视化结论转特征工程
+- 无缺失值，因此不做缺失填补。
+- 特征间线性相关性极弱，因此保留非线性建模空间，不按相关系数删除核心字段。
+- Annual_Premium 极度右偏且长尾，使用原始值、截尾值、log 值和分箱特征共同表达。
+- Vehicle_Damage、Previously_Insured、Vehicle_Age 为强业务特征，并构造未投保、车辆受损、车龄较长的交叉特征。
+- Region_Code 与 Policy_Sales_Channel 具有明显响应率差异，建模阶段增加训练集频率编码和 K 折目标编码。
+- 类别不平衡通过 XGBoost 的 scale_pos_weight 处理。
+
+三、测试集统计指标
+- ROC-AUC: 0.8585
+- PR-AUC / Average Precision: 0.3687
+
+默认阈值 0.50:
+- Accuracy: 0.7083
+- Precision: 0.2866
+- Recall: 0.9270
+- F1: 0.4379
+
+F1 诊断最优阈值 0.6678:
+- Accuracy: 0.7773
+- Precision: 0.3283
+- Recall: 0.7815
+- F1: 0.4624
+
+四、默认阈值混淆矩阵
+- TN: 45328
+- FP: 21552
+- FN: 682
+- TP: 8660
+
+五、分类报告（默认阈值 0.50）
+              precision    recall  f1-score   support
+
+           0     0.9852    0.6778    0.8030     66880
+           1     0.2866    0.9270    0.4379      9342
+
+    accuracy                         0.7083     76222
+   macro avg     0.6359    0.8024    0.6205     76222
+weighted avg     0.8996    0.7083    0.7583     76222
+
+
+六、Top 20 特征重要性（gain）
+01. not_insured_and_damaged: 38095.566406
+02. previously_insured: 4627.839844
+03. Previously_Insured: 3580.438477
+04. not_previously_insured: 2166.624023
+05. age_bin_65: 472.057922
+06. is_high_response_region: 327.680878
+07. Policy_Sales_Channel_target_enc: 274.819427
+08. high_region_and_core_user: 249.803116
+09. vehicle_damage_yes: 201.251343
+10. is_low_efficiency_channel: 197.054642
+11. is_middle_Age: 167.751938
+12. Age: 143.564163
+13. age_bin_25_34: 117.229683
+14. is_high_efficiency_channel: 73.626816
+15. Policy_Sales_Channel: 64.211082
+16. damaged_and_vehicle_old: 63.887737
+17. annual_premium_log: 62.658401
+18. Region_Code_target_enc: 57.846794
+19. age_bin__24: 56.797432
+20. vehicle_age_ord: 56.413544
+
+七、建模建议
+- 当前任务建议优先关注 PR-AUC、Recall 和 F1，而不是只看 Accuracy。
+- 如果业务目标是尽量找到潜在购买客户，可适当降低阈值提高 Recall。
+- 如果业务目标是减少营销打扰，可适当提高阈值提高 Precision。
+- 目标编码已在训练集内做 K 折处理，避免直接使用全量标签导致数据泄露。
