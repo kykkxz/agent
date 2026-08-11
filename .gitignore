@@ -452,3 +452,5 @@ coverage.xml
 Thumbs.db
 *.safetensors
 week4/day2/transform_train/*.json
+
+*.bin
