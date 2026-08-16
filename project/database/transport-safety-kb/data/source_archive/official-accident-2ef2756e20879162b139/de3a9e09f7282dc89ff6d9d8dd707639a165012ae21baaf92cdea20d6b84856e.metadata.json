@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-2ef2756e20879162b139",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750140.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750140.html",
+  "retrieved_at": "2026-08-11T13:25:43+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "de3a9e09f7282dc89ff6d9d8dd707639a165012ae21baaf92cdea20d6b84856e",
+  "raw_path": "source_archive\\official-accident-2ef2756e20879162b139\\de3a9e09f7282dc89ff6d9d8dd707639a165012ae21baaf92cdea20d6b84856e.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-2ef2756e20879162b139\\de3a9e09f7282dc89ff6d9d8dd707639a165012ae21baaf92cdea20d6b84856e.metadata.json",
+  "title": "惠城区河南岸街道“9·26”一般高处坠落亡人事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750140.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "gov-plan-earthquake-2025",
+  "requested_uri": "https://www.gov.cn/zhengce/content/202510/content_7044767.htm",
+  "final_uri": "https://www.gov.cn/zhengce/content/202510/content_7044767.htm",
+  "retrieved_at": "2026-08-11T13:26:10+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "ab29bc4da99d0e7ecc9092a461524bb1980f8438109f5435ce0aab7a2a90bc8b",
+  "raw_path": "source_archive\\gov-plan-earthquake-2025\\ab29bc4da99d0e7ecc9092a461524bb1980f8438109f5435ce0aab7a2a90bc8b.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\gov-plan-earthquake-2025\\ab29bc4da99d0e7ecc9092a461524bb1980f8438109f5435ce0aab7a2a90bc8b.metadata.json",
+  "title": "国家地震应急预案",
+  "publisher": "国务院办公厅",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "gov-plan-forest-grassland-fire-2020",
+  "requested_uri": "https://www.gov.cn/zhengce/content/2020-11/23/content_5563570.htm",
+  "final_uri": "https://www.gov.cn/zhengce/content/2020-11/23/content_5563570.htm",
+  "retrieved_at": "2026-08-11T13:26:10+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "3648d948f137658dcdf2ae80083b63bac21e750b90ecaccff5f9c85d8ef87fbd",
+  "raw_path": "source_archive\\gov-plan-forest-grassland-fire-2020\\3648d948f137658dcdf2ae80083b63bac21e750b90ecaccff5f9c85d8ef87fbd.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\gov-plan-forest-grassland-fire-2020\\3648d948f137658dcdf2ae80083b63bac21e750b90ecaccff5f9c85d8ef87fbd.metadata.json",
+  "title": "国家森林草原火灾应急预案",
+  "publisher": "国务院办公厅",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

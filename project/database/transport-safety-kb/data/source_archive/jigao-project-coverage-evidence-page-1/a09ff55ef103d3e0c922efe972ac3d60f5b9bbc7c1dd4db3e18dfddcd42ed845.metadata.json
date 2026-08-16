@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "jigao-project-coverage-evidence-page-1",
+  "requested_uri": "https://www.jigaojituan.com/gsjs/index.jhtml",
+  "final_uri": "https://www.jigaojituan.com/gsjs/index.jhtml",
+  "retrieved_at": "2026-08-11T13:26:02+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "a09ff55ef103d3e0c922efe972ac3d60f5b9bbc7c1dd4db3e18dfddcd42ed845",
+  "raw_path": "source_archive\\jigao-project-coverage-evidence-page-1\\a09ff55ef103d3e0c922efe972ac3d60f5b9bbc7c1dd4db3e18dfddcd42ed845.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\jigao-project-coverage-evidence-page-1\\a09ff55ef103d3e0c922efe972ac3d60f5b9bbc7c1dd4db3e18dfddcd42ed845.metadata.json",
+  "title": "吉高集团高速建设项目清单第1页（制度覆盖证据）",
+  "publisher": "吉林省高速公路集团有限公司",
+  "document_type": "企业制度",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "archive_only": true,
+    "source_kind": "enterprise_coverage_evidence"
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

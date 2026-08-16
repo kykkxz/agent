@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="applicable-device" content="pc">  
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <meta name="renderer" content="webkit">
+    <meta name="author" content="Design:fengJiaJia; WebLayout:wuYiFan;webData:wuYiFan;" />
+    <!--栏目-->
+    <link rel="shortcut icon" href="/websites/commonComponents/images/guohui.ico">
+    <link rel="stylesheet" href="/websites/lsxzf/css/commonStyle.css">
+    <link rel="stylesheet" href="/websites/lsxzf/css/article.css">
+    <script type="text/javascript" src="/websites/commonComponents/js/jquery-3.6.4.min.js"></script>
+    <script src="/websites/lsxzf/js/jquery.SuperSlide.2.1.3.source.js"></script>
+    <title>卢氏县交通运输局 交通运输突发事件应急预案</title>
+</head>
+<body>
+    <div style="position: relative">
+            <iframe name="loginInfo" id="loginInfo" style="position: absolute;z-index: 1" width="100%" height="30px" scrolling="no" src="https://www.smx.gov.cn/pageView/loginInfo.html" frameborder="0"></iframe>
+
+            <div class="header">
+                <div class="headerBox">
+                    <div class="lunbo lunboa">
+                        <div class="bd">
+                            <ul class="clearfix">
+                                <li><img src="/websites/lsxzf/images/logo1.png" alt="卢氏县人民政府LOGO"></li>
+                                <li><img src="/websites/lsxzf/images/logo2.png" alt="卢氏县人民政府LOGO"></li>
+                                <li><img src="/websites/lsxzf/images/logo3.png" alt="卢氏县人民政府LOGO"></li>
+                            </ul>
+                        </div>
+                        <script type="text/javascript">
+                            jQuery(".lunbo").slide({
+                                mainCell: ".bd ul",
+                                effect: "fold",
+                                autoPlay: true,
+                                delayTime: 1000
+                            });
+                        </script>
+                    </div>
+                    <div class="logoBox">
+                        <div class="headerLogo fl">
+                            <img src="/websites/lsxzf/images/lsdemo.png" alt="卢氏县人民政府">
+                        </div>
+                        <!-- 无障碍功能 -->
+                        <div class="oldinfo clearfix">
+                            <div class="right_wza"><a id="navSwitch" href="javascript:void(0);" title="无障碍浏览"
+                                    class="cmsHBG CMSAssetsTextCon" tabindex="0">无障碍浏览</a></div>
+                            <div class="right_slh"><a onclick="headTool.switchOld()" id="toolbarOldman" class="oldman"
+                                    href="javascript:void(0);" title="进入适老模式">进入适老模式</a></div>
+                        </div>
+
+                        <form id="searchForm" class="searchForm fr" action="/pageView/informationSearch.html">
+                            <input id="search" name="searchText" type="text" placeholder="请输入关键词">
+                            <img class="sousuo" src="/websites/lsxzf/images/search.png"
+                                alt="" onclick="document.getElementById('searchForm').submit();return false">
+                            <input type="hidden" name="protocol" value="null:">
+                            <input id="s_fbsj_s" name="s_fbsj_s" type="hidden" value="">
+                            <input id="s_fbsj_e" name="s_fbsj_e" type="hidden" value="">
+                            <input id="s_lmnrlx" name="s_lmnrlx" type="hidden" value="-1">
+                            <button type="button" class="high-search-btn" onclick="toggleHighSearch()">高级搜索</button>
+                            <div class="high-search layui-form">
+        <script src="/websites/commonComponents/laydate/laydate.js"></script>
+    <link rel="stylesheet" href="/websites/commonComponents/layui/css/layui.css">
+    <link rel="stylesheet" href="/websites/commonComponents/css/highSearch.css">
+    <div class="search-scope clearfix">
+        <span>高级搜索</span>
+    </div>
+    <div class="station">
+        <div class="search-items cl home-station">
+            <div class="search-title search-result">搜索结果：</div>
+            <div class="search-block">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">包含以下任意关键字词</label>
+                    <div class="layui-input-block">
+                        <input type="text" value="" name="anyKeyword" placeholder="请输入包含以下任意关键字词" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">不包含以下关键词</label>
+                    <div class="layui-input-block">
+                        <input type="text" value="" name="noKeyword" placeholder="请输入不包含以下关键词" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-items cl home-station">
+            <div class="search-title">查询范围：</div>
+            <div class="search-block">
+                <input type="radio" name="searchRange" value="1" title="全部" lay-filter="searchRange" checked="checked"><div class="layui-unselect layui-form-radio"><i class="layui-anim layui-icon"></i><div>全部</div></div>
+                <input type="radio" name="searchRange" value="2" title="标题" lay-filter="searchRange"><div class="layui-unselect layui-form-radio layui-form-radioed"><i class="layui-anim layui-icon"></i><div>标题</div></div>
+                <input type="radio" name="searchRange" value="3" title="正文" lay-filter="searchRange"><div class="layui-unselect layui-form-radio"><i class="layui-anim layui-icon"></i><div>正文</div></div>
+            </div>
+        </div>
+        <div class="search-items cl">
+            <div class="search-title">时间范围：</div>
+            <div class="search-block">
+                <div class="layui-inline" id="test7" lay-key="2">
+                    <div class="layui-input-inline">
+                        <input type="text" value="" autocomplete="off" id="test-startDate-2" class="layui-input" placeholder="开始日期" >
+                    </div>
+                    <span>-</span>
+                    <div class="layui-input-inline">
+                        <input type="text" value="" autocomplete="off" id="test-endDate-2" class="layui-input" placeholder="结束日期" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search-city">
+        <button class="search-btn" onclick="document.getElementById('searchForm').submit();return false;">搜索</button>
+    </div>
+    <script src="/websites/commonComponents/layui/layui.js"></script>
+    <script>
+        var fbsjStart = '' ? '' : '0900-00-00';
+        var fbsjEnd = '' ? '' : '9999-99-99';
+
+        var highSearchStartTime =  laydate.render({
+            elem: '#test-startDate-2',
+            value: '',
+            max: fbsjEnd,
+            trigger: 'click',
+            btns: ['clear', 'confirm'],
+            done: function (value, date, endDate) {
+                $('#s_fbsj_s').val(value);
+                if (value != "") {
+                    date.month = date.month - 1;
+                    highSearchEndTime.config.min = date;
+                } else {
+                    highSearchEndTime.config.min = highSearchStartTime.config.min;
+                }
+            }
+        });
+        var highSearchEndTime =  laydate.render({
+            elem: '#test-endDate-2',
+            value: '',
+            min: fbsjStart,
+            trigger: 'click',
+            btns: ['clear', 'confirm'],
+            done: function (value, date, endDate) {
+                $('#s_fbsj_e').val(value);
+                if (value != "") {
+                    date.month = date.month - 1;
+                    highSearchStartTime.config.max = date;
+                } else {
+                    highSearchStartTime.config.max = highSearchEndTime.config.max;
+                }
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        var searchText = '';
+        var lx = ('') ? '' : '-1';
+        var fbsj_s = '';
+        var fbsj_e = '';
+        var anyKeyword = '';
+        var noKeyword = '';
+        var searchRange = '';
+        var protocol = window.location.protocol;
+        function selectChange() {
+            var selectValue = document.getElementById('select_id1');
+            var checkValue = selectValue.options[selectValue.selectedIndex].value;
+            window.location.href = './classifiedSearch.html?pageNum=1' + checkValue + '&searchText=' + searchText + '&s_lmnrlx=' + lx + '&s_fbsj_s=' + fbsj_s + '&s_fbsj_e=' + fbsj_e + '&protocol=' + protocol + '&searchRange=' + searchRange + '&anyKeyword=' + anyKeyword + '&noKeyword=' + noKeyword;
+        }
+            layui.use(['form'], function () {
+        var form = layui.form;
+        // 更新radio的选中状态
+        form.render('radio');
+        document.addEventListener('keydown', function (e) {
+            if (e.key === "Enter") {
+                if ($(".cmsUnderLine").html() == "标题") {
+                    $('input[name="searchRange"][value="2"]').prop('checked', 'checked');
+                    form.render('radio');
+                } else if ($(".cmsUnderLine").html() == "正文") {
+                    $('input[name="searchRange"][value="3"]').prop('checked', 'checked');
+                    form.render('radio');
+                } else if ($(".cmsUnderLine").html() == "全部") {
+                    $('input[name="searchRange"][value="1"]').prop('checked', 'checked');
+                    form.render('radio');
+                }
+            }
+        });
+    });
+        function toggleHighSearch() {
+            $('.high-search').slideToggle();
+        }
+        // 用原生捕获阶段监听 click，配合 contains 判断点击是否在搜索框/按钮内
+        document.addEventListener('click', function(e) {
+            var searchBox = document.querySelector('.high-search');
+            var btn = document.querySelector('.high-search-btn');
+            if (!searchBox) return;
+            // 检查搜索框是否已显示
+            if (searchBox.style.display === 'none' || getComputedStyle(searchBox).display === 'none') return;
+            // 点击目标在搜索框内、或在按钮内，则忽略
+            if (searchBox.contains(e.target) || (btn && (btn === e.target || btn.contains(e.target)))) return;
+            // 点击外部，关闭搜索框
+            $(searchBox).slideUp();
+        }, true);
+    </script>
+    </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- nav开始 -->
+            <div class="nav">
+                <div class="nav-in w" style="width:1150px;">
+                    <div class="itenNav hover1">
+                        <a class="navPage" href="/index.html">
+                            <span class="navIcon1"></span> 首页
+                        </a>
+                    </div>
+                    <div class="itenNav hover2">
+                        <a class="1707 navPage" href="/1707/0000/lsxw-1.html">
+                            <span class="navIcon2"></span>卢氏新闻
+                        </a>
+                    </div>
+                    <div class="itenNav hover3">
+                        <a class="1717 navPage" href="/1717/0000/nature-1.html">
+                            <span class="navIcon3"></span>魅力卢氏
+                        </a>
+                    </div>
+                    <div class="itenNav hover4">
+                        <a class="navPage" style="width:187px;" href="/1733/0000/zhengfuxinxi-1.html"
+                            target="_blank">
+                            <span class="navIcon4"></span>政府信息公开
+                        </a>
+                    </div>
+                    <div class="itenNav hover5">
+                        <a id="hnzwfw2021" class="navPage"
+                            href="https://www.hnzwfw.gov.cn/411224000000/?region=411224000000" target="_blank">
+                            <span class="navIcon5"></span>政务服务
+                        </a>
+                    </div>
+                    <div class="itenNav hover6">
+                        <a class="navPage interacts" href="/pageView/ztzl.html">
+                            <span class="navIcon6"></span>互动交流
+                        </a>
+                    </div>
+                    <div class="itenNav hover7">
+                        <a class="navPage topic" href="/pageView/ztzlLb.html">
+                            <span class="navIcon7"></span>专题专栏
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="nowLocation">
+        <img src="/websites/lsxzf/images/icon_crumb.png" alt="">
+        <span class="locationMsg">当前位置：卢氏县人民政府 ></span>
+          <span  class="locationMsg">专题专栏 ></span><span  class="locationMsg">可配置专题专栏 ></span><span  class="locationMsg">公共企事业单位信息公开 ></span><span  class="locationMsg">本级公共企事业单位信息公开 ></span><span  class="locationMsg">公共交通 ></span>
+        <span  class="locationMsg">文章详情</span>
+        <!--<div class="bdsharebuttonbox">-->
+        <!--    <span></span>-->
+        <!--    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>-->
+        <!--    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>-->
+        <!--</div>-->
+        <!--<script>-->
+        <!--    window._bd_share_config = {-->
+        <!--        "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false,"bdPic": "http://www.lushixian.gov.cn,lushixian.gov.cn", "bdStyle": "0", "bdSize": "16" },-->
+        <!--        "share": {},-->
+        <!--        "image": { "viewList": ["weixin", "qzone", "tsina",], "viewText": "分享到：", "viewSize": "16" }-->
+        <!--    };-->
+        <!--    var head = document.getElementsByTagName('head')[0];-->
+        <!--    var script = document.createElement('script');-->
+        <!--    script.src = "http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=" + ~(-new Date() / 36e5);-->
+        <!--    head.appendChild(script);-->
+        <!--</script>-->
+    </div>
+    
+    <!--政策文件类展示-->
+    
+    <script>
+        const name="\u516C\u5171\u4EA4\u901A"
+        if(name=='领导之窗'){
+            $(".isShow").hide()
+        }
+    </script>
+    <!--领导展示 -->
+    
+
+    <!--非政策文件展示 其他-->
+    <div class="articleDetail">
+        <div class="titleBox">
+            <p class="articleTitle">卢氏县交通运输局 交通运输突发事件应急预案</p>
+        </div>
+        <div class="time">
+            <span class="timeLeft">发布时间:<span>2023-02-21 09:11</span></span>
+            <!-- <span class="timeLeft">查阅次数:<span id="_wz_lll"></span></span> -->
+            <span class="timeLeft" style="display:inline-block;">来源:<span>卢氏县交通运输局</span></span>
+            <span class="timeLeft" style="display:inline-block;">作者:<span></span></span>
+        </div>
+        
+        <div class="articleContent"><p style="text-autospace:ideograph-numeric;text-align:center;line-height:41px"><br/></p><p style="text-autospace:ideograph-numeric;text-align:center;line-height:44px;background:rgb(255,255,255)"><span style="font-size: 37px; font-family: 方正小标宋简体;">卢氏县交通运输局</span></p><p style="text-autospace:ideograph-numeric;text-align:center;line-height:44px;background:rgb(255,255,255)"><span style="font-size: 37px; font-family: 方正小标宋简体;">交通运输突发事件应急预案</span></p><p style="line-height: 44px; background: rgb(255, 255, 255);"><span style="font-size: 37px; font-family: 方正小标宋简体;"></span></p><p style="white-space: normal; text-align: center; line-height: 41px;"><span style="font-family: 仿宋_GB2312; letter-spacing: 0px; background: rgb(255, 255, 255); font-size: 21px;">卢交运〔2023〕40号</span></p><p style="white-space: normal; text-indent: 48px; line-height: 29px;"><span style="font-family: 仿宋_GB2312; letter-spacing: 0px; background: rgb(255, 255, 255); font-size: 21px;">&nbsp;</span></p><p style="line-height: 44px; background: rgb(255, 255, 255);"><span style="text-indent: 43px; font-family: 仿宋; font-size: 24px;">&nbsp; &nbsp;为切实加强交通运输突发事件应急管理工作，科学、高效、有序地应对交通运输行业突发事件，提高交通运输行业综合应急响应和应急保障能力，充分发挥交通运输主管部门在突发事件应对中的作用，保障人民群众生命财产安全和环境安全。依据《河南省交通运输突发事件综合应急预案》和《卢氏县突发事件应急预案》，结合我县交通运输实际，制定本预案。</span><span style="font-size: 37px; font-family: 方正小标宋简体;"><br/></span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 黑体;">一、工作原则</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋;">坚持以人为本、预防为主，统一领导、分级管理，快速反应、协同应对，加强保障、注重演练的原则。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 黑体;">二、组织机构及职责</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（一）应急处置工作领导小组</span></strong></p><p style=";text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family: 仿宋;font-size: 24px">&nbsp;</span></strong><span style=";font-family:仿宋;font-size:24px">&nbsp;&nbsp;</span><span style=";font-family:仿宋_GB2312;font-size:24px">&nbsp;<span style="font-family:仿宋_GB2312">组</span> &nbsp;<span style="font-family:仿宋_GB2312">长：周</span>&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">游</span>&nbsp;&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">（党组书记、局长）</span></span></p><p style="line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style=";font-family:仿宋_GB2312;font-size:24px">&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">副组长：杨爱民</span>&nbsp;&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">（党组成员、副局长</span>&nbsp;<span style="font-family:仿宋_GB2312">）</span></span></p><p style="line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 黄建伟&nbsp;&nbsp;&nbsp;（党组成员、副局长)</span></p><p style="line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style=";font-family:仿宋_GB2312;font-size:24px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="font-family:仿宋_GB2312">程</span> &nbsp;<span style="font-family:仿宋_GB2312">毅</span> &nbsp;&nbsp;<span style="font-family:仿宋_GB2312">（党组成员、总工）</span></span></p><p style="text-indent: 0px; line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="font-family: 仿宋_GB2312; font-size: 24px; text-indent: 144px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 李建昭 &nbsp;&nbsp;（副局长）&nbsp;</span></p><p style="text-indent: 0px; line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 钱建波&nbsp;&nbsp;&nbsp;（公路局局长）</span></p><p style="text-indent: 0px; line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="font-family: 仿宋_GB2312; font-size: 24px; text-indent: 144px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 王青飞 &nbsp;&nbsp;（主任科员）</span></p><p style="text-indent: 0px; line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 常晓卢&nbsp;&nbsp;&nbsp;（主任科员）</span></p><p style="text-indent: 0px; line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="font-family: 仿宋_GB2312; font-size: 24px; text-indent: 144px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 符保林 &nbsp;&nbsp;（副主任科员）</span></p><p style="text-indent: 0px; line-height: 37px; background: rgb(255, 255, 255); text-align: left;"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 王帅伟&nbsp;&nbsp;&nbsp;（副主任科员）&nbsp;</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;text-align:justify;text-justify:inter-ideograph;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">成</span>&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">员：宁继红</span>&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">（局办公室主任）</span></span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 王刘伟&nbsp;&nbsp;（公路局副局长）&nbsp;&nbsp;</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 张拾命&nbsp;&nbsp;（铁办负责人）</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 赵延生&nbsp;&nbsp;（农管所负责人）</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 薛江涛 &nbsp;（道路运输服务中心负责人）</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 孟马峰&nbsp;&nbsp;（执法大队副书记、副大队长）</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 刘&nbsp;&nbsp;鹏&nbsp;&nbsp;（运输公司经理）</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 雷&nbsp;&nbsp;涛&nbsp;&nbsp;（公交公司经理）</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 王双林&nbsp;&nbsp;（三分公司经理）&nbsp;&nbsp;</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="font-family: 仿宋_GB2312; font-size: 24px; text-indent: 144px;">&nbsp; &nbsp; &nbsp; &nbsp; 张明江 &nbsp;（汽车站经理）&nbsp; &nbsp;</span></p><p style="text-indent: 48px; text-align: justify; line-height: 37px; background: rgb(255, 255, 255);"><span style="text-indent: 144px; font-family: 仿宋_GB2312; font-size: 24px;">&nbsp; &nbsp; &nbsp; &nbsp; 李泉江 &nbsp;（交投公司总经理）</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">领导小组的主要职责：贯彻、落实县突发安全事件应急指挥部的应急决策、部署和措施，启动应急预案；迅速了解事故，确定应急工作方案，参与县突发安全事件现场指挥部工作；部署和组织交通系统实施突发安全事件应急工作，指导和协调突发安全事件应急行动中交通保障工作；其他相关重大事项。</span> </span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（二）应急处置工作领导小组办公室</span></strong></p><p style="text-indent: 48px;line-height: 37px;background: rgb(255, 255, 255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">办公室主任：</span> <span style="font-family:仿宋_GB2312">符保林</span></span></p><p style="text-indent: 48px;line-height: 37px;background: rgb(255, 255, 255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">副</span> &nbsp;<span style="font-family:仿宋_GB2312">主</span> &nbsp;<span style="font-family:仿宋_GB2312">任</span> <span style="font-family:仿宋_GB2312">: 宁继红</span>&nbsp;&nbsp;&nbsp;</span></p><p style="text-indent: 48px;line-height: 37px;background: rgb(255, 255, 255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">成</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-family:仿宋_GB2312">员：局属各单位安全股负责人</span></span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋_GB2312;">主要职责：负责贯彻、落实县交通局突发安全事件应急处置领导小组的各项指令，编制和修订本预案，履行应急值守、信息汇总职责，及时报送有关信息；协调本预案的应急演练，落实县交通局突发安全事件应急处置领导小组交办的其他事项。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（三）应急分队指挥小组及职责</span></strong></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="text-indent: 42px; font-family: 仿宋_GB2312; font-size: 24px;">组 &nbsp;长：黄建伟</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-family: 仿宋_GB2312; font-size: 24px;">成 &nbsp;员：局属各单位负责人</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">主要职责：负责调用施工单位装载机、挖掘机、推土机、翻斗车等机械设备，对事发现场道路进行抢修，确保道路在最短时间内恢复畅通。</span> &nbsp;&nbsp;&nbsp;</span></p><p style="text-indent:36px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（四）应急保障指挥小组及职责</span></strong></p><p style="text-indent:36px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋;">&nbsp;</span><span style="font-family: 仿宋_GB2312; font-size: 24px;">组 &nbsp;长：常晓卢</span></p><p style="text-indent: 36px; line-height: 37px; background: rgb(255, 255, 255);"><span style="font-family: 仿宋_GB2312; font-size: 24px; text-indent: 48px;">&nbsp;成 &nbsp;员：局属各单位负责人</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋_GB2312;">主要职责：疏通交通，配合公安交警管制过往车辆，落实应急物资，做好后勤服务和安全保障工作。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 黑体;">三、预警预防与信息报送</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋_GB2312;">根据县突发安全事件应急指挥部发布的预报，经县交通运输局突发安全事件应急处置工作领导小组批准，县交通运输局突发安全事件应急处置工作领导小组办公室在尽可能短的时间内向下属单位传达突发安全事件预报，组织人员对重要运输通道进行检查抢修。发生特别重大和重大突发安全事件实行24小时值班，值班电话：0938-7872398，0938-7188300。</span></p><p style=";text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋;font-size:24px">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size: 24px; font-family: 黑体;">四、应急响应和处置</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（一）应急措施</span></strong></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋_GB2312;">全县发生突发安全事件后，县交通运输局突发安全事件应急处置工作领导小组启动相关预案，统一领导指挥交通部门的应急处置工作。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋_GB2312;">1、县交通运输局突发安全事件应急处置工作领导小组根据突发安全事件发生地点，及时研究提出交通运输保障应急对策、措施和建议。县交通运输局突发安全事件应急处置工作领导小组迅速组织、协调物资调运和人员运送等应急救援工作。牢固确立人民生命财产高于一切的理念，动用一切可以动用的资源，确保救援物资、器材和人员的紧急输送。当事故特别重大，超出我县自身能力，需要外援时，立即报请上级部门及三门峡市交通运输局。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">2、应急分队指挥小组立即组织本系统内专业技术人员赶赴事故现场，如需要，可向其他专业队伍支援，对公路、桥梁等重要部位的受损状况进行调查和进行动态监测，提出应急预防对策及措施，并及时报送县交通运输局突发安全事件应急处置工作领导小组办公室。</span> <span style="font-family:仿宋_GB2312"></span></span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋_GB2312;">3、救援车辆指挥小组立即制定交通运输保障计划，调集相关企业的专业运输车辆，到达突发安全事件现场指挥部要求的指定地点，保障应急物资有序运输，并会同公安部门，实行交通管制，开辟“绿色通道”，保障救灾物资与人员优先通过。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-family: 楷体_GB2312;font-size: 24px"><span style="font-family:楷体_GB2312">（二）应急结束</span> </span></strong></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">县突发安全事件应急指挥部宣布应急期结束后，县交通运输局突发安全事件应急处置工作领导小组可适时决定和宣布应急工作结束。</span> </span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:黑体;font-size:24px"><span style="font-family:黑体">五、后期处置</span> </span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（一）善后处置。</span></strong><span style="font-size: 24px; font-family: 仿宋_GB2312;">应急工作结束后，在县突发安全事件应急指挥部的统一领导下，协助做好善后工作。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（二）调查总结。</span></strong><span style="font-size: 24px; font-family: 仿宋_GB2312;">按照县突发安全事件应急指挥部的要求，对事发原因、损失、经验教训、责任单位奖惩、援助需求等做出综合调查评估，并向上级部门报告。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（三）表彰惩罚。</span></strong><span style="font-size: 24px; font-family: 仿宋_GB2312;">根据调查评估报告，对在突发安全事件处置中有重大贡献的单位和个人，给予表彰和奖励；对突发安全事件处置中有失职、渎职行为的单位和个人，依法追究其相关责任；构成犯罪的，交由司法机关依法追究刑事责任。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 黑体;">六、应急保障</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（一）应急人员保障。</span></strong><span style="font-size: 24px; font-family: 仿宋_GB2312;">组织一批年富力强、技能熟练、素质较好的职工，成立突发安全事件应急救援工作队伍，确保在发生突发安全事件时能够迅速集中，开展应急救援处置工作。通过强化培训演练，提高应急救援工作队伍应急和处置能力。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（二）应急装备保障。</span></strong><span style="font-size: 24px; font-family: 仿宋_GB2312;">建立突发安全事件应急装备信息数据库，明确装备的类型、数量、性能和存放位置，建立相应的维护、保养和调用制度，确保事发时能够应急使用。</span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:黑体;font-size:24px"><span style="font-family:黑体">七、宣传、培训与演习</span> </span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（一）宣传教育。</span></strong><span style=";font-family:仿宋_GB2312;font-size:24px"><span style="font-family:仿宋_GB2312">县交通运输局突发安全事件应急处置工作领导小组办公室应当及时向社会和相关单位公布应急值班电话，组织和督促、指导各单位开展交通安全常识和突发安全事件等突发事件应急知识以及预案的宣传、讲解等普及教育活动。</span> </span></p><p style="text-indent:48px;text-autospace:ideograph-numeric;line-height:37px;background:rgb(255,255,255)"><strong><span style="font-size: 24px; font-family: 楷体_GB2312;">（二）培训与演习。</span></strong><span style="font-size: 24px; font-family: 仿宋_GB2312;">做好应急管理和救援人员培训工作，有计划的实施演练，演练要从实战角度出发，深入发动交通系统干部职工参与，达到普及突发安全事件应急知识和提高应急技能的目的，配合县突发安全事件指挥部做好各专项应急队伍与各单位的合成演练和协同演习。</span></p><p style="text-indent:348px;text-autospace:ideograph-numeric;text-align:right;line-height:37px;background:rgb(255,255,255)"><span style=";font-family:仿宋;font-size:24px">&nbsp;<span style="font-family:仿宋">卢氏县交通运输局</span></span></p><p style="text-indent:372px;text-autospace:ideograph-numeric;text-align:right;line-height:37px;background:rgb(255,255,255)"><span style="font-size: 24px; font-family: 仿宋;">2023年2月17</span><span style="font-size: 27px; font-family: 仿宋;">日</span></p><p><br/></p></div>
+    </div>
+    
+    
+    
+    <div class="footer">
+            
+            <div class="bottom-line"></div>
+            <div class="footerContent">
+                <a href="http://bszs.conac.cn/sitename?method=show&id=29E908D085A83A3FE053022819AC64B4" target="_blank">
+                    <img src="/websites/lsxzf/images/dzjglogo.png" alt="党政机关标识" class="fl">
+                </a>
+                <div class="fl msg">
+                    <p>版权所有：卢氏县人民政府2015 All Rights Reserved</p>
+                    <p><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank"
+                            style="color: #fff;">工信部备案：豫ICP备16000643号</a>
+                        <span style="width:430px;margin:0 auto;"><a class="float:right;" target="_blank"
+                                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41122402000009"
+                                style="display:inline-block;text-decoration:none;height:20px;line-height:20px;color: #fff;"><img
+                                    style="float:left;" src="/websites/lsxzf/images/ga.png" alt="公安备案">豫公网安备41122402000009号</a></span>
+                    </p>
+                    <p>网站标识码: 4112240001</p>
+                    <p>地址：卢氏县龙山路中段 电话：0398-7872315</p>
+                    <p>网站维护: 卢氏县人民政府办公室</p>
+                </div>
+                <div style="width: 120px;float: left;">
+                    <script id="_jiucuo_" sitecode="4112240001" src="/websites/commonComponents/js/jiucuo.js"></script>
+                    
+                    <a href="https://smx.henanjubao.com/" target="_blank" class="zheng" style="float:left;">
+                        <img src="/websites/commonComponents/images/jbptimg.jpg" alt="三门峡市互联网举报和辟谣平台">
+                    </a>
+                </div>
+                <script src="/websites/commonComponents/slh/common.js"></script>
+            </div>
+        </div>
+</body>
+
+
+<script type="text/javascript">
+    (function(){
+        if( !('placeholder' in document.createElement('input')) ){
+            // 匹配 除type=password以外所有input、textarea
+            $('input[placeholder][type!=password],textarea[placeholder]').each(function(){   
+                var self = $(this),   
+                text= self.attr('placeholder');
+                // 如果内容为空，则写入
+                if(self.val()===""){ 
+                    self.val(text).addClass('placeholder');
+                }
+     
+                // 控件激活，清空placeholder
+                self.focus(function(){
+                    if(self.val()===text){
+                        self.val("").removeClass('placeholder');
+                    }
+                // 控件失去焦点，清空placeholder
+                }).blur(function(){
+                    if(self.val()===""){
+                        self.val(text).addClass('placeholder');
+                    }
+                });            
+            });   
+        }
+    })();
+</script>
+
+<!-- 卢氏县政府百度推广追加工具代码 -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script type="text/javascript" src="/websites/lsxzf/static/cmsToolsInit.js"></script>
+<!-- 卢氏县政府百度推广追加工具代码 -->
+<script>
+    window.onload = function () {
+      console.log("-----输出数据------")
+        const iframe = document.getElementById('loginInfo');
+        iframe.contentWindow.postMessage(window.location.href, '*'); // '*' 表示接受任何源，实际使用时应指定确切的源以增加安全性
+    }
+  </script>

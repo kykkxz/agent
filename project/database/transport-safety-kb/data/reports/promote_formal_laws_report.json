@@ -1,0 +1,24 @@
+{
+  "database": "H:\\wd\\datarag\\transport-safety-kb\\data\\transport_safety_kb.sqlite3",
+  "promoted_documents": 2,
+  "promoted_knowledge_entries": 195,
+  "documents": [
+    {
+      "document_id": "doc_e2e6839737b7fb59f4eb",
+      "title": "中华人民共和国安全生产法",
+      "document_type": "法律",
+      "publication_layer": "待核验层",
+      "review_status": "机器初审"
+    },
+    {
+      "document_id": "doc_6779a155b37fefd2a162",
+      "title": "建设工程安全生产管理条例",
+      "document_type": "行政法规",
+      "publication_layer": "待核验层",
+      "review_status": "机器初审"
+    }
+  ],
+  "updated_at": "2026-08-12T09:37:06+00:00",
+  "review_status": "通过校验",
+  "publication_layer": "正式依据层"
+}

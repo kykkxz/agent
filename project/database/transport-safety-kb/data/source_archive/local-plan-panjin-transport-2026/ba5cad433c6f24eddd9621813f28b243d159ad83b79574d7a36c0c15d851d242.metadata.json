@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-plan-panjin-transport-2026",
+  "requested_uri": "https://www.panjin.gov.cn:803/uploads/govsjtysj/12252/20260116/a596771f855bee5900d4dbc2ff729b15.pdf",
+  "final_uri": "https://www.panjin.gov.cn:803/uploads/govsjtysj/12252/20260116/a596771f855bee5900d4dbc2ff729b15.pdf",
+  "retrieved_at": "2026-08-11T13:26:12+00:00",
+  "status_code": 200,
+  "media_type": "application/pdf",
+  "raw_sha256": "ba5cad433c6f24eddd9621813f28b243d159ad83b79574d7a36c0c15d851d242",
+  "raw_path": "source_archive\\local-plan-panjin-transport-2026\\ba5cad433c6f24eddd9621813f28b243d159ad83b79574d7a36c0c15d851d242.pdf",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-plan-panjin-transport-2026\\ba5cad433c6f24eddd9621813f28b243d159ad83b79574d7a36c0c15d851d242.metadata.json",
+  "title": "盘锦市交通运输局突发事件应急预案",
+  "publisher": "盘锦市交通运输局",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

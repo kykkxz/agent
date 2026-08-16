@@ -1,0 +1,171 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "beijing-construction-safety-operation-regulation-2021",
+  "requested_uri": "https://bzh.scjgj.beijing.gov.cn/bzh/apifile/file/2021/20210406/0a5aa4ff-e94b-49b9-88ce-bd9e48ad8908.pdf",
+  "final_uri": "https://bzh.scjgj.beijing.gov.cn/bzh/apifile/file/2021/20210406/0a5aa4ff-e94b-49b9-88ce-bd9e48ad8908.pdf",
+  "retrieved_at": "2026-08-11T13:25:57+00:00",
+  "status_code": 200,
+  "media_type": "application/pdf",
+  "raw_sha256": "3f59883ea2326c194f219b600d812ea1a6015ef3cb90c7ba0752045f07ce6a1b",
+  "raw_path": "source_archive\\beijing-construction-safety-operation-regulation-2021\\3f59883ea2326c194f219b600d812ea1a6015ef3cb90c7ba0752045f07ce6a1b.pdf",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\beijing-construction-safety-operation-regulation-2021\\3f59883ea2326c194f219b600d812ea1a6015ef3cb90c7ba0752045f07ce6a1b.metadata.json",
+  "title": "建筑工程施工安全操作规程（DB11/T 1833-2021）",
+  "publisher": "北京市住房和城乡建设委员会、北京市市场监督管理局",
+  "document_type": "操作规程",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "operation_procedure_plugin",
+    "browser_verified": true,
+    "browser_verified_at": "2026-08-11",
+    "split_sections": [
+      {
+        "heading": "14  建筑架子工",
+        "end_heading": "15  建筑电工",
+        "title": "建筑架子工作业安全操作规程"
+      },
+      {
+        "heading": "15  建筑电工",
+        "end_heading": "16  电焊工",
+        "title": "建筑电工作业安全操作规程"
+      },
+      {
+        "heading": "16  电焊工",
+        "end_heading": "17  气焊工",
+        "title": "电焊作业安全操作规程"
+      },
+      {
+        "heading": "17  气焊工",
+        "end_heading": "18  预应力钢筋张拉工",
+        "title": "气焊作业安全操作规程"
+      },
+      {
+        "heading": "18  预应力钢筋张拉工",
+        "end_heading": "19  钳  工",
+        "title": "预应力钢筋张拉作业安全操作规程"
+      },
+      {
+        "heading": "27  起重信号司索工",
+        "end_heading": "28  塔式起重机",
+        "title": "起重信号司索作业安全操作规程"
+      },
+      {
+        "heading": "28  塔式起重机",
+        "end_heading": "29  履带式起重机",
+        "title": "塔式起重机作业安全操作规程"
+      },
+      {
+        "heading": "31  施工升降机",
+        "end_heading": "32  高处作业吊篮",
+        "title": "施工升降机作业安全操作规程"
+      },
+      {
+        "heading": "32  高处作业吊篮",
+        "end_heading": "33  机械式高空作业平台",
+        "title": "高处作业吊篮安全操作规程"
+      },
+      {
+        "heading": "34  土方与桩工机械",
+        "end_heading": "35  中小型机械",
+        "title": "土方与桩工机械安全操作规程"
+      }
+    ],
+    "fragment_metadata": {
+      "建筑架子工作业安全操作规程": {
+        "applicable_role": [
+          "建筑架子工"
+        ],
+        "applicable_activity": [
+          "脚手架搭设拆除",
+          "高处作业"
+        ]
+      },
+      "建筑电工作业安全操作规程": {
+        "applicable_role": [
+          "建筑电工"
+        ],
+        "applicable_activity": [
+          "施工临时用电",
+          "配电与照明"
+        ]
+      },
+      "电焊作业安全操作规程": {
+        "applicable_role": [
+          "电焊工"
+        ],
+        "applicable_activity": [
+          "电焊",
+          "动火作业"
+        ]
+      },
+      "气焊作业安全操作规程": {
+        "applicable_role": [
+          "气焊工"
+        ],
+        "applicable_activity": [
+          "气焊气割",
+          "动火作业"
+        ]
+      },
+      "预应力钢筋张拉作业安全操作规程": {
+        "applicable_role": [
+          "预应力钢筋张拉工"
+        ],
+        "applicable_activity": [
+          "预应力张拉",
+          "桥梁与结构施工"
+        ]
+      },
+      "起重信号司索作业安全操作规程": {
+        "applicable_role": [
+          "起重信号司索工"
+        ],
+        "applicable_activity": [
+          "起重吊装",
+          "司索指挥"
+        ]
+      },
+      "塔式起重机作业安全操作规程": {
+        "applicable_role": [
+          "塔式起重机司机",
+          "安装拆卸工"
+        ],
+        "applicable_activity": [
+          "塔式起重机作业",
+          "起重吊装"
+        ]
+      },
+      "施工升降机作业安全操作规程": {
+        "applicable_role": [
+          "施工升降机司机"
+        ],
+        "applicable_activity": [
+          "施工升降机运行",
+          "垂直运输"
+        ]
+      },
+      "高处作业吊篮安全操作规程": {
+        "applicable_role": [
+          "吊篮安装使用人员"
+        ],
+        "applicable_activity": [
+          "高处作业吊篮",
+          "高处作业"
+        ]
+      },
+      "土方与桩工机械安全操作规程": {
+        "applicable_role": [
+          "土方机械司机",
+          "桩工机械司机"
+        ],
+        "applicable_activity": [
+          "土方开挖",
+          "桩基础施工",
+          "深基坑周边作业"
+        ]
+      }
+    }
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

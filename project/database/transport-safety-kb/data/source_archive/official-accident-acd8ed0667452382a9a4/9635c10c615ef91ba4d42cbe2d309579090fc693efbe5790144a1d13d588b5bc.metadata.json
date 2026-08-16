@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-acd8ed0667452382a9a4",
+  "requested_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202602/t20260225_1138397.htm",
+  "final_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202602/t20260225_1138397.htm",
+  "retrieved_at": "2026-08-11T13:25:48+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "9635c10c615ef91ba4d42cbe2d309579090fc693efbe5790144a1d13d588b5bc",
+  "raw_path": "source_archive\\official-accident-acd8ed0667452382a9a4\\9635c10c615ef91ba4d42cbe2d309579090fc693efbe5790144a1d13d588b5bc.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-acd8ed0667452382a9a4\\9635c10c615ef91ba4d42cbe2d309579090fc693efbe5790144a1d13d588b5bc.metadata.json",
+  "title": "湖里江头“10·10”一般道路 交通事故调查报告",
+  "publisher": "厦门市湖里区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/",
+    "index_name": "厦门市湖里区事故调查督办",
+    "source_page": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202602/t20260225_1138397.htm",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

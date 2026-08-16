@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-dc68521e79f838484900",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_2415128.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_2415128.html",
+  "retrieved_at": "2026-08-11T13:25:33+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "49ccafa11611b1283b7e9d5de6bacdd65b4f101c8886c9fd5816dfd9da4f260a",
+  "raw_path": "source_archive\\official-accident-dc68521e79f838484900\\49ccafa11611b1283b7e9d5de6bacdd65b4f101c8886c9fd5816dfd9da4f260a.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-dc68521e79f838484900\\49ccafa11611b1283b7e9d5de6bacdd65b4f101c8886c9fd5816dfd9da4f260a.metadata.json",
+  "title": "新力花园项目建筑工地“9·23”高处坠亡事故的调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_4.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_2415128.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

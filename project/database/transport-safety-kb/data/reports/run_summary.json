@@ -1,0 +1,47 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "started_and_completed_at": "2026-08-11T13:26:15+00:00",
+  "discovered": 93,
+  "accepted_documents": 121,
+  "accepted_source_count": 88,
+  "quarantined_documents": 0,
+  "evidence_units": 1736,
+  "knowledge_entries": 1736,
+  "failures": 0,
+  "document_types": {
+    "法律": 1,
+    "行政法规": 1,
+    "监管文件": 5,
+    "事故调查材料": 62,
+    "操作规程": 10,
+    "企业制度": 21,
+    "应急预案": 21
+  },
+  "enterprise_or_project_entities": 20,
+  "official_accident_reports": 62,
+  "fetch_transports": {
+    "local-file": 2,
+    "curl": 119
+  },
+  "review_status": "gov.cn 来源已通过校验并进入正式依据层；其他来源保持原审核状态",
+  "official_accident_report_ratio": 1.0,
+  "sqlite": {
+    "database": "H:\\wd\\新建文件夹\\transport-safety-kb\\data\\transport_safety_kb.sqlite3",
+    "schema_version": "1",
+    "fts5_available": true,
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_violations": [],
+    "counts": {
+      "sources": 93,
+      "raw_assets": 93,
+      "documents": 121,
+      "evidence_units": 1736,
+      "knowledge_entries": 1736,
+      "knowledge_citations": 1736,
+      "quarantine": 0,
+      "collection_failures": 0
+    }
+  }
+}

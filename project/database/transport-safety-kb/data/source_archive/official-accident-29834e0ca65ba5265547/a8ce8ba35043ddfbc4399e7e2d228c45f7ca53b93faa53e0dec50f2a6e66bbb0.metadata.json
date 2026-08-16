@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-29834e0ca65ba5265547",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5606985.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5606985.html",
+  "retrieved_at": "2026-08-11T13:25:43+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "a8ce8ba35043ddfbc4399e7e2d228c45f7ca53b93faa53e0dec50f2a6e66bbb0",
+  "raw_path": "source_archive\\official-accident-29834e0ca65ba5265547\\a8ce8ba35043ddfbc4399e7e2d228c45f7ca53b93faa53e0dec50f2a6e66bbb0.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-29834e0ca65ba5265547\\a8ce8ba35043ddfbc4399e7e2d228c45f7ca53b93faa53e0dec50f2a6e66bbb0.metadata.json",
+  "title": "惠州市水务集团公司下属排水中心城西所丰山泵站“5·19”一般高处坠落事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5606985.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

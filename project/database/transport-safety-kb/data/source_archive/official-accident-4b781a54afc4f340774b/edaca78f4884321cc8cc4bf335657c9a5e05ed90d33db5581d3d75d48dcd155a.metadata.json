@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-4b781a54afc4f340774b",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4737904.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4737904.html",
+  "retrieved_at": "2026-08-11T13:25:40+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "edaca78f4884321cc8cc4bf335657c9a5e05ed90d33db5581d3d75d48dcd155a",
+  "raw_path": "source_archive\\official-accident-4b781a54afc4f340774b\\edaca78f4884321cc8cc4bf335657c9a5e05ed90d33db5581d3d75d48dcd155a.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-4b781a54afc4f340774b\\edaca78f4884321cc8cc4bf335657c9a5e05ed90d33db5581d3d75d48dcd155a.metadata.json",
+  "title": "惠州市水务集团三环东路清淤工程“3·21”窒息事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_2.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4737904.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

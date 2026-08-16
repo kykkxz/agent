@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-b80513336934278556f6",
+  "requested_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202602/t20260205_1137073.htm",
+  "final_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202602/t20260205_1137073.htm",
+  "retrieved_at": "2026-08-11T13:25:48+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "107916811a33178bac323f538cee33e3b7f35ec89d4ce3544d075a4dbed00bea",
+  "raw_path": "source_archive\\official-accident-b80513336934278556f6\\107916811a33178bac323f538cee33e3b7f35ec89d4ce3544d075a4dbed00bea.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-b80513336934278556f6\\107916811a33178bac323f538cee33e3b7f35ec89d4ce3544d075a4dbed00bea.metadata.json",
+  "title": "湖里禾山艾德花园小区电梯更换项目“9·11”一般高处坠落事故调查报告",
+  "publisher": "厦门市湖里区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/",
+    "index_name": "厦门市湖里区事故调查督办",
+    "source_page": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202602/t20260205_1137073.htm",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

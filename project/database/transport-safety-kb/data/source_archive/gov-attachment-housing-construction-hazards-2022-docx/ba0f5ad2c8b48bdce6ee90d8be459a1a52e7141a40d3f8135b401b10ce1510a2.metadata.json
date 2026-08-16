@@ -1,0 +1,25 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "gov-attachment-housing-construction-hazards-2022-docx",
+  "requested_uri": "https://www.gov.cn/zhengce/zhengceku/2022-04/26/5687357/files/91f75c04a7d741f6a82db3c8bf7fe120.docx",
+  "final_uri": "https://www.gov.cn/zhengce/zhengceku/2022-04/26/5687357/files/91f75c04a7d741f6a82db3c8bf7fe120.docx",
+  "retrieved_at": "2026-08-11T13:25:23+00:00",
+  "status_code": 200,
+  "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "raw_sha256": "ba0f5ad2c8b48bdce6ee90d8be459a1a52e7141a40d3f8135b401b10ce1510a2",
+  "raw_path": "source_archive\\gov-attachment-housing-construction-hazards-2022-docx\\ba0f5ad2c8b48bdce6ee90d8be459a1a52e7141a40d3f8135b401b10ce1510a2.docx",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\gov-attachment-housing-construction-hazards-2022-docx\\ba0f5ad2c8b48bdce6ee90d8be459a1a52e7141a40d3f8135b401b10ce1510a2.metadata.json",
+  "title": "房屋市政工程生产安全重大事故隐患判定标准（2022版）",
+  "publisher": "住房和城乡建设部",
+  "document_type": "监管文件",
+  "plugin": "direct_url_plugin",
+  "source_metadata": {
+    "browser_verified": true,
+    "browser_verified_at": "2026-08-11",
+    "discovered_from": "https://www.gov.cn/zhengce/zhengceku/2022-04/26/content_5687357.htm",
+    "verification_note": "内置浏览器从官方通知页发现的DOCX原档"
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

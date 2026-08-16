@@ -1,0 +1,31 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "mot-emergency-plans-bundle-2026",
+  "requested_uri": "https://xxgk.mot.gov.cn/jigou/zghssjzx/202603/P020260506380719169687.doc",
+  "final_uri": "https://xxgk.mot.gov.cn/jigou/zghssjzx/202603/P020260506380719169687.doc",
+  "retrieved_at": "2026-08-11T13:26:04+00:00",
+  "status_code": 200,
+  "media_type": "application/msword",
+  "raw_sha256": "99e12cad43500ec88dab218cf09cde4f169eb6b3d36c6054fd8c6bd2508c8e78",
+  "raw_path": "source_archive\\mot-emergency-plans-bundle-2026\\99e12cad43500ec88dab218cf09cde4f169eb6b3d36c6054fd8c6bd2508c8e78.doc",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\mot-emergency-plans-bundle-2026\\99e12cad43500ec88dab218cf09cde4f169eb6b3d36c6054fd8c6bd2508c8e78.metadata.json",
+  "title": "交通运输部5项突发事件应急预案",
+  "publisher": "交通运输部",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true,
+    "browser_verified_at": "2026-08-11",
+    "split_titles": [
+      "交通运输综合应急预案",
+      "公路交通突发事件应急预案",
+      "水路交通突发事件应急预案",
+      "道路运输突发事件应急预案",
+      "公路水运工程生产安全事故应急预案"
+    ]
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

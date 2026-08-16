@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-acea9e12ab025d4c78ac",
+  "requested_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202501/t20250126_1088067.htm",
+  "final_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202501/t20250126_1088067.htm",
+  "retrieved_at": "2026-08-11T13:25:46+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "68713b79a5cd8f65fded62e1de74ccedb5794ca46de9f4f3b466d0dede72587e",
+  "raw_path": "source_archive\\official-accident-acea9e12ab025d4c78ac\\68713b79a5cd8f65fded62e1de74ccedb5794ca46de9f4f3b466d0dede72587e.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-acea9e12ab025d4c78ac\\68713b79a5cd8f65fded62e1de74ccedb5794ca46de9f4f3b466d0dede72587e.metadata.json",
+  "title": "湖里金山厦门真乐净环境有限公司 “8·10”一般高处坠落事故调查报告",
+  "publisher": "厦门市湖里区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/",
+    "index_name": "厦门市湖里区事故调查督办",
+    "source_page": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202501/t20250126_1088067.htm",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

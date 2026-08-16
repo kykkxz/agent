@@ -1,0 +1,28 @@
+[project]
+name = "transport-safety-kb"
+version = "0.1.0"
+description = "交通建设与运营安全外部知识源采集插件"
+requires-python = ">=3.12"
+dependencies = [
+  "beautifulsoup4>=4.12",
+  "pycryptodome>=3.20",
+  "pypdf>=5.0",
+  "rich>=13.9",
+]
+
+[project.optional-dependencies]
+rag = [
+  "chromadb>=1.0",
+  "langchain-chroma>=0.2",
+  "langchain-core>=0.3",
+  "langchain-huggingface>=0.1",
+  "sentence-transformers>=3.0",
+  "torch>=2.2",
+  "transformers>=4.40",
+]
+
+[project.scripts]
+transport-kb = "transport_kb.cli:main"
+
+[tool.ruff]
+line-length = 100

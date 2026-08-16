@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-676e7674e2dffb7fbea0",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4674717.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4674717.html",
+  "retrieved_at": "2026-08-11T13:25:40+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "cfc8f109ca750e8408ac509fbe265611bd07433ed95c889f39dc13bd1f1efc34",
+  "raw_path": "source_archive\\official-accident-676e7674e2dffb7fbea0\\cfc8f109ca750e8408ac509fbe265611bd07433ed95c889f39dc13bd1f1efc34.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-676e7674e2dffb7fbea0\\cfc8f109ca750e8408ac509fbe265611bd07433ed95c889f39dc13bd1f1efc34.metadata.json",
+  "title": "惠城区桥东街道“2021·3·29”赫斯特酒吧装修项目高空坠落亡人事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_2.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4674717.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

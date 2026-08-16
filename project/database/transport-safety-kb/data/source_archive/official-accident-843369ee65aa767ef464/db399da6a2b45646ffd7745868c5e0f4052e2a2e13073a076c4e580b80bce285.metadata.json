@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-843369ee65aa767ef464",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4099688.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4099688.html",
+  "retrieved_at": "2026-08-11T13:25:39+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "db399da6a2b45646ffd7745868c5e0f4052e2a2e13073a076c4e580b80bce285",
+  "raw_path": "source_archive\\official-accident-843369ee65aa767ef464\\db399da6a2b45646ffd7745868c5e0f4052e2a2e13073a076c4e580b80bce285.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-843369ee65aa767ef464\\db399da6a2b45646ffd7745868c5e0f4052e2a2e13073a076c4e580b80bce285.metadata.json",
+  "title": "惠城区水口街道“8·9”机械伤害亡人事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_3.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4099688.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

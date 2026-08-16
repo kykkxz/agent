@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-plan-yiyuan-transport-2020",
+  "requested_uri": "http://www.yiyuan.gov.cn/gongkai/site_yyxjtysj/channel_c_5f9f6caf744146b464b6e889_n_1605852665.869/doc_5fe5ef383dba8b1315731b82.html",
+  "final_uri": "http://www.yiyuan.gov.cn/gongkai/site_yyxjtysj/channel_c_5f9f6caf744146b464b6e889_n_1605852665.869/doc_5fe5ef383dba8b1315731b82.html",
+  "retrieved_at": "2026-08-11T13:26:15+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "6bdc0936e6f9657128214a2206d31fe221810df2fb3f007df6b17a618e4ef812",
+  "raw_path": "source_archive\\local-plan-yiyuan-transport-2020\\6bdc0936e6f9657128214a2206d31fe221810df2fb3f007df6b17a618e4ef812.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-plan-yiyuan-transport-2020\\6bdc0936e6f9657128214a2206d31fe221810df2fb3f007df6b17a618e4ef812.metadata.json",
+  "title": "沂源县交通运输局突发事件应急预案",
+  "publisher": "沂源县交通运输局",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

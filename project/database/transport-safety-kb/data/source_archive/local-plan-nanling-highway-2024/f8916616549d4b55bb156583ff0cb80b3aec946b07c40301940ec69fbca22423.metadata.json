@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-plan-nanling-highway-2024",
+  "requested_uri": "https://www.nlx.gov.cn/openness/public/6605211/39626302.html",
+  "final_uri": "https://www.nlx.gov.cn/openness/public/6605211/39626302.html",
+  "retrieved_at": "2026-08-11T13:26:15+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "f8916616549d4b55bb156583ff0cb80b3aec946b07c40301940ec69fbca22423",
+  "raw_path": "source_archive\\local-plan-nanling-highway-2024\\f8916616549d4b55bb156583ff0cb80b3aec946b07c40301940ec69fbca22423.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-plan-nanling-highway-2024\\f8916616549d4b55bb156583ff0cb80b3aec946b07c40301940ec69fbca22423.metadata.json",
+  "title": "南陵县交通运输局公路交通突发事件应急预案",
+  "publisher": "南陵县交通运输局",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

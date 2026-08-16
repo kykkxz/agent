@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-211830-7fa34a57",
+  "source_id": "official-accident-aa136dcbd7e1655e345a",
+  "requested_uri": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2020/202009/t20200911_365513.shtml",
+  "final_uri": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2020/202009/t20200911_365513.shtml",
+  "retrieved_at": "2026-08-11T13:19:27+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "75dad44f07c4d50f29a41307323f0ad8b00e7b5fcead24bd985a67617344db2f",
+  "raw_path": "source_archive\\official-accident-aa136dcbd7e1655e345a\\75dad44f07c4d50f29a41307323f0ad8b00e7b5fcead24bd985a67617344db2f.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-aa136dcbd7e1655e345a\\75dad44f07c4d50f29a41307323f0ad8b00e7b5fcead24bd985a67617344db2f.metadata.json",
+  "title": "长深高速江苏无锡“9·28”特别重大道路交通事故调查报告",
+  "publisher": "中华人民共和国应急管理部",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/index_1.shtml",
+    "index_name": "应急管理部调查报告",
+    "source_page": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2020/202009/t20200911_365513.shtml",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

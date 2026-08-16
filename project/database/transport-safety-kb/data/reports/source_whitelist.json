@@ -1,0 +1,7 @@
+{
+  "allowed_domains": [
+    "gov.cn",
+    "jigaojituan.com"
+  ],
+  "rule": "仅允许列明域名及其子域名，禁止登录、验证码和访问控制绕过"
+}

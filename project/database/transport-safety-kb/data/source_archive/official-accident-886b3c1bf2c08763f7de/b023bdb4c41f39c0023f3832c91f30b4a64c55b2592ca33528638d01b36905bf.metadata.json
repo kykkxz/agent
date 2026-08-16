@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-886b3c1bf2c08763f7de",
+  "requested_uri": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2014/201406/t20140610_245221.shtml",
+  "final_uri": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2014/201406/t20140610_245221.shtml",
+  "retrieved_at": "2026-08-11T13:25:49+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "b023bdb4c41f39c0023f3832c91f30b4a64c55b2592ca33528638d01b36905bf",
+  "raw_path": "source_archive\\official-accident-886b3c1bf2c08763f7de\\b023bdb4c41f39c0023f3832c91f30b4a64c55b2592ca33528638d01b36905bf.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-886b3c1bf2c08763f7de\\b023bdb4c41f39c0023f3832c91f30b4a64c55b2592ca33528638d01b36905bf.metadata.json",
+  "title": "晋济高速公路山西晋城段岩后隧道\"3·1\"特别重大道路交通危化品燃爆事故调查报告",
+  "publisher": "中华人民共和国应急管理部",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/index_2.shtml",
+    "index_name": "应急管理部调查报告",
+    "source_page": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2014/201406/t20140610_245221.shtml",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

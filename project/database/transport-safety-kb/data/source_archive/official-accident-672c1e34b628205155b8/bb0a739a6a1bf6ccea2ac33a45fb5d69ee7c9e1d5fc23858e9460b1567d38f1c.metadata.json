@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-672c1e34b628205155b8",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_1720554.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_1720554.html",
+  "retrieved_at": "2026-08-11T13:25:24+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "bb0a739a6a1bf6ccea2ac33a45fb5d69ee7c9e1d5fc23858e9460b1567d38f1c",
+  "raw_path": "source_archive\\official-accident-672c1e34b628205155b8\\bb0a739a6a1bf6ccea2ac33a45fb5d69ee7c9e1d5fc23858e9460b1567d38f1c.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-672c1e34b628205155b8\\bb0a739a6a1bf6ccea2ac33a45fb5d69ee7c9e1d5fc23858e9460b1567d38f1c.metadata.json",
+  "title": "关于星耀国际花园一期工程“6.26”事故的调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_5.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_1720554.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

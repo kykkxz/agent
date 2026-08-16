@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-plan-suixi-transport-2026",
+  "requested_uri": "https://www.sxx.gov.cn/zwgk/public/1771/64931469.html",
+  "final_uri": "https://www.sxx.gov.cn/zwgk/public/1771/64931469.html",
+  "retrieved_at": "2026-08-11T13:26:14+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "46f9dab3abbb6c23f6e398b9ebef466ba37c496dbec2a5b221ff61cac8a46555",
+  "raw_path": "source_archive\\local-plan-suixi-transport-2026\\46f9dab3abbb6c23f6e398b9ebef466ba37c496dbec2a5b221ff61cac8a46555.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-plan-suixi-transport-2026\\46f9dab3abbb6c23f6e398b9ebef466ba37c496dbec2a5b221ff61cac8a46555.metadata.json",
+  "title": "濉溪县交通运输局突发事件应急预案",
+  "publisher": "濉溪县交通运输局",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

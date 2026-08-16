@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: sqlite:////app/data/app.db
+      KB_DB_PATH: /kb/data/transport_safety_kb.sqlite3
+    volumes:
+      - ../backend/data:/app/data
+      - ../database/transport-safety-kb:/kb
+    working_dir: /app
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend

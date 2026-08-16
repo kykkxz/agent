@@ -1,0 +1,166 @@
+{
+  "timeout_seconds": 20,
+  "governance": {
+    "allowed_domains": ["gov.cn", "jigaojituan.com"],
+    "min_text_chars": 300
+  },
+  "plugins": [
+    {
+      "type": "local_file",
+      "required": true,
+      "sources": [
+        {
+          "path": "data/安全生产法.pdf",
+          "source_id": "local-law-safety-production-2021",
+          "title": "中华人民共和国安全生产法",
+          "publisher": "全国人民代表大会常务委员会",
+          "document_type": "法律",
+          "published_at": "2021-06-10",
+          "effective_from": "2021-09-01",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["生产经营单位", "主要负责人", "安全生产管理人员", "从业人员"],
+          "applicable_activity": ["交通建设", "交通运营", "安全生产管理"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["中华人民共和国安全生产法", "安全生产"]
+        },
+        {
+          "path": "data/建设工程安全生产管理条例.pdf",
+          "source_id": "local-regulation-construction-safety-2003",
+          "title": "建设工程安全生产管理条例",
+          "publisher": "国务院",
+          "document_type": "行政法规",
+          "published_at": "2003-11-24",
+          "effective_from": "2004-02-01",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["建设单位", "勘察单位", "设计单位", "施工单位", "监理单位"],
+          "applicable_activity": ["交通建设", "建设工程施工"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["建设工程", "安全生产管理条例"]
+        }
+      ]
+    },
+    {
+      "type": "direct_url",
+      "sources": [
+        {
+          "source_id": "gov-regulation-highway-waterway-hazards-2025",
+          "source_uri": "https://www.gov.cn/zhengce/zhengceku/202504/content_7020378.htm",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "publisher": "交通运输部办公厅",
+          "document_type": "监管文件",
+          "published_at": "2025-04-22",
+          "effective_from": "2025-04-14",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["交通运输主管部门", "公路水运工程参建单位"],
+          "applicable_activity": ["公路水运工程施工", "隐患排查治理"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["公路水运工程", "重大事故隐患"],
+          "extra": {
+            "browser_verified": true,
+            "browser_verified_at": "2026-08-11",
+            "verification_note": "内置浏览器确认发布机关、文号、日期及完整16条正文；页面无独立附件"
+          }
+        },
+        {
+          "source_id": "gov-regulation-inland-vessel-hazards-2024",
+          "source_uri": "https://www.gov.cn/zhengce/zhengceku/202412/content_6994253.htm",
+          "title": "交通运输部办公厅关于印发《内河运输船舶重大事故隐患判定标准》的通知",
+          "publisher": "交通运输部办公厅",
+          "document_type": "监管文件",
+          "published_at": "2024-12-24",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["内河运输企业", "船舶经营人"],
+          "applicable_activity": ["内河运输", "隐患排查治理"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["内河运输船舶", "重大事故隐患"],
+          "extra": {
+            "browser_verified": true,
+            "browser_verified_at": "2026-08-11",
+            "verification_note": "内置浏览器确认发文机关、文号、日期和完整正文"
+          }
+        },
+        {
+          "source_id": "gov-regulation-port-dangerous-goods-hazards-2024",
+          "source_uri": "https://www.gov.cn/zhengce/zhengceku/202407/content_6963503.htm",
+          "title": "交通运输部办公厅关于印发《危险货物港口作业重大事故隐患判定标准》的通知",
+          "publisher": "交通运输部办公厅",
+          "document_type": "监管文件",
+          "published_at": "2024-07-19",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["港口经营人", "危险货物作业单位"],
+          "applicable_activity": ["危险货物港口作业", "隐患排查治理"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["危险货物", "重大事故隐患"],
+          "extra": {
+            "browser_verified": true,
+            "browser_verified_at": "2026-08-11",
+            "verification_note": "内置浏览器确认发文机关、文号、日期和完整正文"
+          }
+        },
+        {
+          "source_id": "gov-regulation-housing-construction-hazards-2022",
+          "source_uri": "https://www.gov.cn/zhengce/zhengceku/2022-04/26/content_5687357.htm",
+          "title": "住房和城乡建设部关于印发《房屋市政工程生产安全重大事故隐患判定标准（2022版）》的通知",
+          "publisher": "住房和城乡建设部",
+          "document_type": "监管文件",
+          "published_at": "2022-04-26",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["建设单位", "施工单位", "监理单位"],
+          "applicable_activity": ["房屋市政工程施工", "隐患排查治理"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["房屋市政工程", "重大事故隐患"],
+          "extra": {
+            "browser_verified": true,
+            "browser_verified_at": "2026-08-11",
+            "verification_note": "内置浏览器确认通知正文，并发现正式DOCX附件"
+          }
+        },
+        {
+          "source_id": "gov-attachment-housing-construction-hazards-2022-docx",
+          "source_uri": "https://www.gov.cn/zhengce/zhengceku/2022-04/26/5687357/files/91f75c04a7d741f6a82db3c8bf7fe120.docx",
+          "title": "房屋市政工程生产安全重大事故隐患判定标准（2022版）",
+          "publisher": "住房和城乡建设部",
+          "document_type": "监管文件",
+          "published_at": "2022-04-19",
+          "effective_from": "2022-04-19",
+          "version_status": "当前有效候选",
+          "jurisdiction": "国家",
+          "applicable_role": ["建设单位", "施工单位", "监理单位"],
+          "applicable_activity": ["房屋市政工程施工", "隐患排查治理"],
+          "authority_level": "A",
+          "license_status": "公开发布",
+          "expected_keywords": ["房屋市政工程", "重大事故隐患"],
+          "relation": "附件所属通知：建质规〔2022〕2号",
+          "extra": {
+            "browser_verified": true,
+            "browser_verified_at": "2026-08-11",
+            "discovered_from": "https://www.gov.cn/zhengce/zhengceku/2022-04/26/content_5687357.htm",
+            "verification_note": "内置浏览器从官方通知页发现的DOCX原档"
+          }
+        }
+      ]
+    },
+    {
+      "type": "catalog_file",
+      "path": "config/generated_sources.json",
+      "required": true
+    },
+    {
+      "type": "catalog_file",
+      "path": "config/curated_sources.json",
+      "required": true
+    }
+  ]
+}

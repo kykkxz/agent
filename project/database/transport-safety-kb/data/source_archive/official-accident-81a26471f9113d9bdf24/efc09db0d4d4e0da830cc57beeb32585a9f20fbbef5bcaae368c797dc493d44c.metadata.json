@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-81a26471f9113d9bdf24",
+  "requested_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202312/t20231205_1028089.htm",
+  "final_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202312/t20231205_1028089.htm",
+  "retrieved_at": "2026-08-11T13:25:45+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "efc09db0d4d4e0da830cc57beeb32585a9f20fbbef5bcaae368c797dc493d44c",
+  "raw_path": "source_archive\\official-accident-81a26471f9113d9bdf24\\efc09db0d4d4e0da830cc57beeb32585a9f20fbbef5bcaae368c797dc493d44c.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-81a26471f9113d9bdf24\\efc09db0d4d4e0da830cc57beeb32585a9f20fbbef5bcaae368c797dc493d44c.metadata.json",
+  "title": "海沧隧道“9·8”一般道路交通 事故调查报告",
+  "publisher": "厦门市湖里区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/",
+    "index_name": "厦门市湖里区事故调查督办",
+    "source_page": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202312/t20231205_1028089.htm",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

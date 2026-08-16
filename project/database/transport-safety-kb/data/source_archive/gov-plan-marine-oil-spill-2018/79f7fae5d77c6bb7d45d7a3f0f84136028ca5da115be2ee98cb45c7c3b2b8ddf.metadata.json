@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "gov-plan-marine-oil-spill-2018",
+  "requested_uri": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/content_5446969.htm",
+  "final_uri": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/content_5446969.htm",
+  "retrieved_at": "2026-08-11T13:26:10+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "79f7fae5d77c6bb7d45d7a3f0f84136028ca5da115be2ee98cb45c7c3b2b8ddf",
+  "raw_path": "source_archive\\gov-plan-marine-oil-spill-2018\\79f7fae5d77c6bb7d45d7a3f0f84136028ca5da115be2ee98cb45c7c3b2b8ddf.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\gov-plan-marine-oil-spill-2018\\79f7fae5d77c6bb7d45d7a3f0f84136028ca5da115be2ee98cb45c7c3b2b8ddf.metadata.json",
+  "title": "国家重大海上溢油应急处置预案",
+  "publisher": "交通运输部",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

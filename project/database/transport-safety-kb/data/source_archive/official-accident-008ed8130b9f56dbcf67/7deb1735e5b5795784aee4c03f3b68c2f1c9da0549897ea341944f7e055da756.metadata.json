@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-008ed8130b9f56dbcf67",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4545647.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4545647.html",
+  "retrieved_at": "2026-08-11T13:25:40+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "7deb1735e5b5795784aee4c03f3b68c2f1c9da0549897ea341944f7e055da756",
+  "raw_path": "source_archive\\official-accident-008ed8130b9f56dbcf67\\7deb1735e5b5795784aee4c03f3b68c2f1c9da0549897ea341944f7e055da756.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-008ed8130b9f56dbcf67\\7deb1735e5b5795784aee4c03f3b68c2f1c9da0549897ea341944f7e055da756.metadata.json",
+  "title": "惠城区龙丰街道碧桂园盛汇广场项目亡人事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_2.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_4545647.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

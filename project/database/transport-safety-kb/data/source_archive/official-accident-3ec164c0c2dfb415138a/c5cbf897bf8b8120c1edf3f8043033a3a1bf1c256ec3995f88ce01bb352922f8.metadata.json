@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-3ec164c0c2dfb415138a",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750146.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750146.html",
+  "retrieved_at": "2026-08-11T13:25:44+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "c5cbf897bf8b8120c1edf3f8043033a3a1bf1c256ec3995f88ce01bb352922f8",
+  "raw_path": "source_archive\\official-accident-3ec164c0c2dfb415138a\\c5cbf897bf8b8120c1edf3f8043033a3a1bf1c256ec3995f88ce01bb352922f8.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-3ec164c0c2dfb415138a\\c5cbf897bf8b8120c1edf3f8043033a3a1bf1c256ec3995f88ce01bb352922f8.metadata.json",
+  "title": "惠城水口惠霞高速水口特大桥项目工地“2024·1·7”一般触电事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750146.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

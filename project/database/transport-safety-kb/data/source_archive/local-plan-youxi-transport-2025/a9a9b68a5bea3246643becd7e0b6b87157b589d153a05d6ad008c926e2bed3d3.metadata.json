@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-plan-youxi-transport-2025",
+  "requested_uri": "http://www.fjyx.gov.cn/zfxxgkzl/zfxxgkml/aqsc/202509/t20250923_2156872.htm",
+  "final_uri": "http://www.fjyx.gov.cn/zfxxgkzl/zfxxgkml/aqsc/202509/t20250923_2156872.htm",
+  "retrieved_at": "2026-08-11T13:26:15+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "a9a9b68a5bea3246643becd7e0b6b87157b589d153a05d6ad008c926e2bed3d3",
+  "raw_path": "source_archive\\local-plan-youxi-transport-2025\\a9a9b68a5bea3246643becd7e0b6b87157b589d153a05d6ad008c926e2bed3d3.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-plan-youxi-transport-2025\\a9a9b68a5bea3246643becd7e0b6b87157b589d153a05d6ad008c926e2bed3d3.metadata.json",
+  "title": "尤溪县交通运输突发事件应急预案",
+  "publisher": "尤溪县交通运输局",
+  "document_type": "应急预案",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "emergency_plan_plugin",
+    "browser_verified": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

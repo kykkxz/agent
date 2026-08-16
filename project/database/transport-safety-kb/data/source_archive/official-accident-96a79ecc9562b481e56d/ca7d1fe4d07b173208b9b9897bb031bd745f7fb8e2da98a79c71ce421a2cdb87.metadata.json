@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-96a79ecc9562b481e56d",
+  "requested_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202507/t20250730_1110353.htm",
+  "final_uri": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202507/t20250730_1110353.htm",
+  "retrieved_at": "2026-08-11T13:25:47+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "ca7d1fe4d07b173208b9b9897bb031bd745f7fb8e2da98a79c71ce421a2cdb87",
+  "raw_path": "source_archive\\official-accident-96a79ecc9562b481e56d\\ca7d1fe4d07b173208b9b9897bb031bd745f7fb8e2da98a79c71ce421a2cdb87.htm",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-96a79ecc9562b481e56d\\ca7d1fe4d07b173208b9b9897bb031bd745f7fb8e2da98a79c71ce421a2cdb87.metadata.json",
+  "title": "自贸区象屿园区“4·9”一般 车辆伤害事故调查报告",
+  "publisher": "厦门市湖里区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/",
+    "index_name": "厦门市湖里区事故调查督办",
+    "source_page": "https://www.huli.gov.cn/zwgk/xzdgk/42565/4407/202507/t20250730_1110353.htm",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

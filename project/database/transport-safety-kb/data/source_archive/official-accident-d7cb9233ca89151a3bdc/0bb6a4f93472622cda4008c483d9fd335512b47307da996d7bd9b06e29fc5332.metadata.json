@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-d7cb9233ca89151a3bdc",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_3450302.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_3450302.html",
+  "retrieved_at": "2026-08-11T13:25:38+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "0bb6a4f93472622cda4008c483d9fd335512b47307da996d7bd9b06e29fc5332",
+  "raw_path": "source_archive\\official-accident-d7cb9233ca89151a3bdc\\0bb6a4f93472622cda4008c483d9fd335512b47307da996d7bd9b06e29fc5332.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-d7cb9233ca89151a3bdc\\0bb6a4f93472622cda4008c483d9fd335512b47307da996d7bd9b06e29fc5332.metadata.json",
+  "title": "珑誉花园项目建筑工地“1·15”物体打击事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_4.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_3450302.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

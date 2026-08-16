@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-regulation-construction-safety-2003",
+  "requested_uri": "file:///H:/wd/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/transport-safety-kb/data/%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B.pdf",
+  "final_uri": "file:///H:/wd/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/transport-safety-kb/data/%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7%E7%AE%A1%E7%90%86%E6%9D%A1%E4%BE%8B.pdf",
+  "retrieved_at": "2026-08-11T13:25:22+00:00",
+  "status_code": 200,
+  "media_type": "application/pdf",
+  "raw_sha256": "4b39c78eca4ca2bd3d85e34139cd7572edf800cb5c203b24bd17d057d5ad2bc0",
+  "raw_path": "source_archive\\local-regulation-construction-safety-2003\\4b39c78eca4ca2bd3d85e34139cd7572edf800cb5c203b24bd17d057d5ad2bc0.pdf",
+  "transport": "local-file",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-regulation-construction-safety-2003\\4b39c78eca4ca2bd3d85e34139cd7572edf800cb5c203b24bd17d057d5ad2bc0.metadata.json",
+  "title": "建设工程安全生产管理条例",
+  "publisher": "国务院",
+  "document_type": "行政法规",
+  "plugin": "local_file_plugin",
+  "source_metadata": {
+    "local_primary_source": true,
+    "local_path": "H:\\wd\\新建文件夹\\transport-safety-kb\\data\\建设工程安全生产管理条例.pdf"
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

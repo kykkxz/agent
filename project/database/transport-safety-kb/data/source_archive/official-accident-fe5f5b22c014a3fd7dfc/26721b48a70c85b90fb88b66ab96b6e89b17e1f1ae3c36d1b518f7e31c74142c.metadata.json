@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-fe5f5b22c014a3fd7dfc",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_2415129.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_2415129.html",
+  "retrieved_at": "2026-08-11T13:25:35+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "26721b48a70c85b90fb88b66ab96b6e89b17e1f1ae3c36d1b518f7e31c74142c",
+  "raw_path": "source_archive\\official-accident-fe5f5b22c014a3fd7dfc\\26721b48a70c85b90fb88b66ab96b6e89b17e1f1ae3c36d1b518f7e31c74142c.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-fe5f5b22c014a3fd7dfc\\26721b48a70c85b90fb88b66ab96b6e89b17e1f1ae3c36d1b518f7e31c74142c.metadata.json",
+  "title": "河惠莞高速公路惠州平潭至潼湖段工程大湓井隧道“12·3”塌方事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/index_4.html",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_2415129.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

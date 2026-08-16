@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-33a4020167931a8e7f9c",
+  "requested_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750145.html",
+  "final_uri": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750145.html",
+  "retrieved_at": "2026-08-11T13:25:44+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "d6d19a590b92d82b5ff1413a5c2798ae5770f42959d5f7b39390ae36421a849c",
+  "raw_path": "source_archive\\official-accident-33a4020167931a8e7f9c\\d6d19a590b92d82b5ff1413a5c2798ae5770f42959d5f7b39390ae36421a849c.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-33a4020167931a8e7f9c\\d6d19a590b92d82b5ff1413a5c2798ae5770f42959d5f7b39390ae36421a849c.metadata.json",
+  "title": "惠城水口惠霞高速东江特大桥二集中钢筋加工场“2023·2·22”一般机械伤害事故调查报告",
+  "publisher": "惠州市惠城区人民政府",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/",
+    "index_name": "惠城区生产安全事故调查报告",
+    "source_page": "http://www.hcq.gov.cn/hcqzdlyxxgk/aqscxxgk/scaqsgdcbg/content/post_5750145.html",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

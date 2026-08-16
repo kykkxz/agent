@@ -1,0 +1,27 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "official-accident-f10c04f9d66ad53c45eb",
+  "requested_uri": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2012/201206/t20120627_245231.shtml",
+  "final_uri": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2012/201206/t20120627_245231.shtml",
+  "retrieved_at": "2026-08-11T13:25:49+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "d47b3094a2aacc87038c4e1858898a690ecc362a598194a5f2c896fb7b531b3b",
+  "raw_path": "source_archive\\official-accident-f10c04f9d66ad53c45eb\\d47b3094a2aacc87038c4e1858898a690ecc362a598194a5f2c896fb7b531b3b.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\official-accident-f10c04f9d66ad53c45eb\\d47b3094a2aacc87038c4e1858898a690ecc362a598194a5f2c896fb7b531b3b.metadata.json",
+  "title": "京珠高速河南信阳“7·22”特别重大 卧铺客车燃烧事故调查报告",
+  "publisher": "中华人民共和国应急管理部",
+  "document_type": "事故调查材料",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "discovery_method": "official_index_crawler",
+    "discovered_from": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/index_2.shtml",
+    "index_name": "应急管理部调查报告",
+    "source_page": "https://www.mem.gov.cn/gk/sgcc/tbzdsgdcbg/2012/201206/t20120627_245231.shtml",
+    "browser_index_verified": true,
+    "detail_probe_deferred": true
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

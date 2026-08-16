@@ -1,0 +1,2198 @@
+{
+  "created_at": "2026-08-12T09:44:36+00:00",
+  "database": "H:\\wd\\datarag\\transport-safety-kb\\data\\transport_safety_kb.sqlite3",
+  "vector_store": "H:\\wd\\datarag\\transport-safety-kb\\data\\rag_chroma",
+  "device": "cuda",
+  "cuda_available": true,
+  "embedding_model": "H:\\wd\\datarag\\bge-small-zh-v1.5",
+  "reranker_model": "H:\\wd\\datarag\\bge-reranker-base",
+  "manifest_chunk_count": 1477,
+  "formal_evidence_count": 1477,
+  "collection_check": {
+    "api_count": 1477,
+    "stored_count": 1477,
+    "distinct_id_count": 1477,
+    "expected_count": 1477,
+    "count_matches": true,
+    "ids_unique": true
+  },
+  "questions": 30,
+  "hits": 30,
+  "hit_rate": 1.0,
+  "covered_questions": 29,
+  "covered_hits": 29,
+  "covered_hit_rate": 1.0,
+  "titled_questions": 24,
+  "titled_hits": 24,
+  "titled_hit_rate": 1.0,
+  "uncovered_questions": 1,
+  "uncovered_correct": 1,
+  "results": [
+    {
+      "id": "Q01",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_f93d7d20cf058f3c58a8",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第2页 / 第三条",
+          "document_type": "法律",
+          "rerank_score": 3.156597,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_c65a80a95d4cb1bc6544",
+          "title": "“7·23”甬温线特别重大铁路交通事故调查报告",
+          "locator": "段落1 / 片段30",
+          "document_type": "事故调查材料",
+          "rerank_score": 0.864547,
+          "rrf_score": 0.02901,
+          "retrieval_ranks": {
+            "dense": 11,
+            "sparse": 7
+          }
+        },
+        {
+          "evidence_id": "ev_66b6c40075a3595ad564",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第7页 / 第二十一条",
+          "document_type": "法律",
+          "rerank_score": 0.540736,
+          "rrf_score": 0.03214,
+          "retrieval_ranks": {
+            "dense": 9,
+            "authority_dense": 8
+          }
+        },
+        {
+          "evidence_id": "ev_f75a0c3e4425fcb8a084",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第1页 / 第三条",
+          "document_type": "行政法规",
+          "rerank_score": 0.285312,
+          "rrf_score": 0.051109,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 4,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_d1c0d7a30efeeec4c96a",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第2页 / 第一条",
+          "document_type": "法律",
+          "rerank_score": -0.017593,
+          "rrf_score": 0.034921,
+          "retrieval_ranks": {
+            "dense": 3,
+            "authority_dense": 3
+          }
+        }
+      ],
+      "question": "安全生产工作的方针是什么？"
+    },
+    {
+      "id": "Q02",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_66b6c40075a3595ad564",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第7页 / 第二十一条",
+          "document_type": "法律",
+          "rerank_score": 8.029922,
+          "rrf_score": 0.036066,
+          "retrieval_ranks": {
+            "dense": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_9e9b9fb931f3bda67bca",
+          "title": "惠城区合生上观国际七期项目建筑工地“10·13”坠亡事故调查报告",
+          "locator": "第十八条",
+          "document_type": "事故调查材料",
+          "rerank_score": 6.940263,
+          "rrf_score": 0.027598,
+          "retrieval_ranks": {
+            "dense": 11,
+            "sparse": 14
+          }
+        },
+        {
+          "evidence_id": "ev_6f9bf9e59faa0317c192",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第8-9页 / 第二十五条",
+          "document_type": "法律",
+          "rerank_score": 6.872731,
+          "rrf_score": 0.034921,
+          "retrieval_ranks": {
+            "dense": 3,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_64ef66f2e094be853a59",
+          "title": "天津港“8·12”瑞海公司危险品仓库特别重大火灾爆炸事故调查报告",
+          "locator": "第88页 / 第九十一条",
+          "document_type": "事故调查材料",
+          "rerank_score": 6.6972,
+          "rrf_score": 0.030798,
+          "retrieval_ranks": {
+            "dense": 7,
+            "sparse": 3
+          }
+        },
+        {
+          "evidence_id": "ev_bb1e23a9dcdd6c373947",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第3页 / 第五条",
+          "document_type": "法律",
+          "rerank_score": 6.195551,
+          "rrf_score": 0.05019,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 8,
+            "authority_dense": 2
+          }
+        }
+      ],
+      "question": "生产经营单位的主要负责人有哪些安全生产职责？"
+    },
+    {
+      "id": "Q03",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_af54cbb83bfd115313bc",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第8页 / 第二十四条",
+          "document_type": "法律",
+          "rerank_score": 3.524292,
+          "rrf_score": 0.032836,
+          "retrieval_ranks": {
+            "dense": 7,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_5b7ac8c5eda29b52a80c",
+          "title": "惠城区仲恺大道“1·17”道路交通事故调查报告",
+          "locator": "第十九条",
+          "document_type": "事故调查材料",
+          "rerank_score": 2.952339,
+          "rrf_score": 0.015873,
+          "retrieval_ranks": {
+            "sparse": 3
+          }
+        },
+        {
+          "evidence_id": "ev_6bead5be0a7dcce9762e",
+          "title": "惠城区世贸中心三期项目“9·9”高空坠物亡人事故调查报告",
+          "locator": "第十九条",
+          "document_type": "事故调查材料",
+          "rerank_score": 2.561766,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_bd4e6f64c35258c3942a",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第7-8页 / 第二十二条",
+          "document_type": "法律",
+          "rerank_score": 2.515714,
+          "rrf_score": 0.050768,
+          "retrieval_ranks": {
+            "dense": 4,
+            "sparse": 1,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_b471639a4acab55e1689",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第19页 / 第五十七条",
+          "document_type": "法律",
+          "rerank_score": 1.935589,
+          "rrf_score": 0.033846,
+          "retrieval_ranks": {
+            "dense": 5,
+            "authority_dense": 5
+          }
+        }
+      ],
+      "question": "安全生产责任制应当覆盖哪些岗位？"
+    },
+    {
+      "id": "Q04",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_e484b916e4aedfa637b2",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第17页 / 第五十一条",
+          "document_type": "法律",
+          "rerank_score": 3.221682,
+          "rrf_score": 0.015873,
+          "retrieval_ranks": {
+            "sparse": 3
+          }
+        },
+        {
+          "evidence_id": "ev_7f678869a1a4c66f1e3e",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第3页 / 第六条",
+          "document_type": "法律",
+          "rerank_score": 2.789231,
+          "rrf_score": 0.050558,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 9,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_1c6b5e778f750d38bbda",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第18页 / 第五十四条",
+          "document_type": "法律",
+          "rerank_score": 2.663142,
+          "rrf_score": 0.047222,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 12,
+            "authority_dense": 6
+          }
+        },
+        {
+          "evidence_id": "ev_d6f3a1cd8a26bd05943b",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第18-19页 / 第五十六条",
+          "document_type": "法律",
+          "rerank_score": 2.411605,
+          "rrf_score": 0.050504,
+          "retrieval_ranks": {
+            "dense": 4,
+            "sparse": 2,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_5ceedbf82ba9a58473e1",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第18页 / 第五十三条",
+          "document_type": "法律",
+          "rerank_score": 2.138473,
+          "rrf_score": 0.047004,
+          "retrieval_ranks": {
+            "dense": 5,
+            "sparse": 16,
+            "authority_dense": 5
+          }
+        }
+      ],
+      "question": "从业人员享有哪些安全生产权利？"
+    },
+    {
+      "id": "Q05",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_0cd376d6acb5fe91fa77",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第19页 / 第五十九条",
+          "document_type": "法律",
+          "rerank_score": 5.981156,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_320661d913f2d8ee0f8e",
+          "title": "惠城马安广东药坊宝大健康产业生产厂房建设项目“10·11”一般高处坠落事故调查报告",
+          "locator": "第四十一条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.758698,
+          "rrf_score": 0.031754,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 4
+          }
+        },
+        {
+          "evidence_id": "ev_aac3f9d619ba5eaf45ba",
+          "title": "惠城三栋中洲南麓院“10·17”一般物体打击事故调查报告",
+          "locator": "第四十一条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.26341,
+          "rrf_score": 0.031746,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 3
+          }
+        },
+        {
+          "evidence_id": "ev_ee008030c340f32d4a21",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第24页 / 第七十五条",
+          "document_type": "法律",
+          "rerank_score": 4.018527,
+          "rrf_score": 0.03498,
+          "retrieval_ranks": {
+            "dense": 4,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_501b960dc094cf7465df",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第14-15页 / 第四十一条",
+          "document_type": "法律",
+          "rerank_score": 3.837357,
+          "rrf_score": 0.033062,
+          "retrieval_ranks": {
+            "sparse": 6,
+            "authority_dense": 7
+          }
+        }
+      ],
+      "question": "从业人员发现事故隐患应当如何报告？"
+    },
+    {
+      "id": "Q06",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_ce470ce80451d57bdfee",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第10-11页 / 第二十八条",
+          "document_type": "法律",
+          "rerank_score": 6.359653,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_3c90e1caa945bfee73f5",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第11页 / 第二十九条",
+          "document_type": "法律",
+          "rerank_score": 4.76074,
+          "rrf_score": 0.033167,
+          "retrieval_ranks": {
+            "dense": 8,
+            "authority_dense": 5
+          }
+        },
+        {
+          "evidence_id": "ev_fe1bdfd60269770d292b",
+          "title": "惠城马安广东药坊宝大健康产业生产厂房建设项目“10·11”一般高处坠落事故调查报告",
+          "locator": "第二十八条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.730799,
+          "rrf_score": 0.029958,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 11
+          }
+        },
+        {
+          "evidence_id": "ev_79112ff5004aca64059e",
+          "title": "惠城马安广东药坊宝大健康产业生产厂房建设项目“10·11”一般高处坠落事故调查报告",
+          "locator": "第二十八条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.597719,
+          "rrf_score": 0.030415,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 10
+          }
+        },
+        {
+          "evidence_id": "ev_39141a8236989146f2dd",
+          "title": "惠城区仲恺大道“1·17”道路交通事故调查报告",
+          "locator": "第二十五条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.519055,
+          "rrf_score": 0.02967,
+          "retrieval_ranks": {
+            "dense": 10,
+            "sparse": 5
+          }
+        }
+      ],
+      "question": "生产经营单位应如何开展安全生产教育培训？"
+    },
+    {
+      "id": "Q07",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_c908d6f018d9d0c40e41",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第11页 / 第三十条",
+          "document_type": "法律",
+          "rerank_score": 5.473787,
+          "rrf_score": 0.05019,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 8,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_d91073e63c46b6c79e83",
+          "title": "惠城水口“9·8”一般触电事故调查报告",
+          "locator": "第五条",
+          "document_type": "事故调查材料",
+          "rerank_score": 5.148611,
+          "rrf_score": 0.032002,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_6d4373a6aba867fce29b",
+          "title": "惠城区河南岸街道“9·26”一般高处坠落亡人事故调查报告",
+          "locator": "第三十条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.893905,
+          "rrf_score": 0.03055,
+          "retrieval_ranks": {
+            "dense": 4,
+            "sparse": 7
+          }
+        },
+        {
+          "evidence_id": "ev_0648d96c9acfcb30d482",
+          "title": "惠城马安广东药坊宝大健康产业生产厂房建设项目“10·11”一般高处坠落事故调查报告",
+          "locator": "第三十条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.502703,
+          "rrf_score": 0.029644,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 9
+          }
+        },
+        {
+          "evidence_id": "ev_e881807e97ec9d268260",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7页 / 第二十五条",
+          "document_type": "行政法规",
+          "rerank_score": 4.308085,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        }
+      ],
+      "question": "特种作业人员上岗有什么要求？"
+    },
+    {
+      "id": "Q08",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_60531f59d2454da4675f",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第14页 / 第四十条",
+          "document_type": "法律",
+          "rerank_score": 4.163017,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_898acc47f002449d3992",
+          "title": "天津港“8·12”瑞海公司危险品仓库特别重大火灾爆炸事故调查报告",
+          "locator": "第30-31页 / 前言 / 片段17",
+          "document_type": "事故调查材料",
+          "rerank_score": 1.821565,
+          "rrf_score": 0.030835,
+          "retrieval_ranks": {
+            "dense": 8,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_ef8744c57fb476e9bd94",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第42页 / 第一百一十七条",
+          "document_type": "法律",
+          "rerank_score": 1.42787,
+          "rrf_score": 0.048898,
+          "retrieval_ranks": {
+            "dense": 7,
+            "sparse": 7,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_fb6bd327ff318359d34b",
+          "title": "天津港“8·12”瑞海公司危险品仓库特别重大火灾爆炸事故调查报告",
+          "locator": "第34-35页 / 前言 / 片段20",
+          "document_type": "事故调查材料",
+          "rerank_score": 1.224881,
+          "rrf_score": 0.02971,
+          "retrieval_ranks": {
+            "dense": 11,
+            "sparse": 4
+          }
+        },
+        {
+          "evidence_id": "ev_db24e437dbb30592be2c",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第42页 / 第一百一十八条",
+          "document_type": "法律",
+          "rerank_score": 0.95529,
+          "rrf_score": 0.049686,
+          "retrieval_ranks": {
+            "dense": 4,
+            "sparse": 8,
+            "authority_dense": 2
+          }
+        }
+      ],
+      "question": "重大危险源应如何管理？"
+    },
+    {
+      "id": "Q09",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_d736f631d13193edb14a",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第27-28页 / 第八十五条",
+          "document_type": "法律",
+          "rerank_score": 5.534321,
+          "rrf_score": 0.034375,
+          "retrieval_ranks": {
+            "sparse": 4,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_7e88f6352dd84470be36",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第26页 / 第八十条",
+          "document_type": "法律",
+          "rerank_score": 5.315361,
+          "rrf_score": 0.050953,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 2,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_bf3d913d7331a1fc6053",
+          "title": "公路水运工程生产安全事故应急预案",
+          "locator": "段落6 / 片段5",
+          "document_type": "应急预案",
+          "rerank_score": 5.128921,
+          "rrf_score": 0.028577,
+          "retrieval_ranks": {
+            "dense": 11,
+            "sparse": 9
+          }
+        },
+        {
+          "evidence_id": "ev_3f696b8855659e97025e",
+          "title": "公路水运工程生产安全事故应急预案",
+          "locator": "段落6 / 片段6",
+          "document_type": "应急预案",
+          "rerank_score": 4.903344,
+          "rrf_score": 0.030777,
+          "retrieval_ranks": {
+            "dense": 4,
+            "sparse": 6
+          }
+        },
+        {
+          "evidence_id": "ev_e6c0caf10a59b210e552",
+          "title": "公路水运工程生产安全事故应急预案",
+          "locator": "段落2 / 片段2",
+          "document_type": "应急预案",
+          "rerank_score": 4.608716,
+          "rrf_score": 0.030769,
+          "retrieval_ranks": {
+            "dense": 5,
+            "sparse": 5
+          }
+        }
+      ],
+      "question": "生产安全事故应急救援预案有哪些要求？"
+    },
+    {
+      "id": "Q10",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "安全生产法"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_70fdbfcc929971506ba8",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第17页 / 第五十条",
+          "document_type": "法律",
+          "rerank_score": 6.302907,
+          "rrf_score": 0.050826,
+          "retrieval_ranks": {
+            "dense": 5,
+            "sparse": 1,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_ed89978c7d158c1819df",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第39页 / 第一百一十条",
+          "document_type": "法律",
+          "rerank_score": 6.143882,
+          "rrf_score": 0.048827,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 7,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_0b89f1fbd07d7d7f632f",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第32页 / 第九十五条",
+          "document_type": "法律",
+          "rerank_score": 5.496006,
+          "rrf_score": 0.04969,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 12,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_66b6c40075a3595ad564",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第7页 / 第二十一条",
+          "document_type": "法律",
+          "rerank_score": 4.461741,
+          "rrf_score": 0.035228,
+          "retrieval_ranks": {
+            "dense": 3,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_0ee309c560c76fdb4f0d",
+          "title": "惠城区仲恺大道“1·17”道路交通事故调查报告",
+          "locator": "第九十一条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.058648,
+          "rrf_score": 0.031054,
+          "retrieval_ranks": {
+            "dense": 7,
+            "sparse": 2
+          }
+        }
+      ],
+      "question": "发生生产安全事故后主要负责人应如何处置？"
+    },
+    {
+      "id": "Q11",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_2793e2fc3b849c19b393",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第20页 / 第六十四条",
+          "document_type": "行政法规",
+          "rerank_score": 6.850449,
+          "rrf_score": 0.030214,
+          "retrieval_ranks": {
+            "dense": 11,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_f7c41c8f824b386a8aac",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第3页 / 第十一条",
+          "document_type": "行政法规",
+          "rerank_score": 6.668636,
+          "rrf_score": 0.04822,
+          "retrieval_ranks": {
+            "dense": 7,
+            "sparse": 5,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_a637c457ebb9c4fed3d0",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第16页 / 第五十五条",
+          "document_type": "行政法规",
+          "rerank_score": 6.546751,
+          "rrf_score": 0.048746,
+          "retrieval_ranks": {
+            "dense": 8,
+            "sparse": 1,
+            "authority_dense": 8
+          }
+        },
+        {
+          "evidence_id": "ev_831a33879dea04977062",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7页 / 第二十四条",
+          "document_type": "行政法规",
+          "rerank_score": 5.690141,
+          "rrf_score": 0.034375,
+          "retrieval_ranks": {
+            "dense": 4,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_9d761dce1614592c1a8d",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第6页 / 第二十一条",
+          "document_type": "行政法规",
+          "rerank_score": 5.527328,
+          "rrf_score": 0.035484,
+          "retrieval_ranks": {
+            "dense": 2,
+            "authority_dense": 2
+          }
+        }
+      ],
+      "question": "建设单位有哪些安全生产责任？"
+    },
+    {
+      "id": "Q12",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_820a55d71dbdb845cff0",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第16-17页 / 第五十六条",
+          "document_type": "行政法规",
+          "rerank_score": 7.336086,
+          "rrf_score": 0.050794,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 3,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_ee2ae88d542847eeceb7",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第3页 / 第十二条",
+          "document_type": "行政法规",
+          "rerank_score": 6.002136,
+          "rrf_score": 0.052195,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 2,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_a637c457ebb9c4fed3d0",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第16页 / 第五十五条",
+          "document_type": "行政法规",
+          "rerank_score": 4.952052,
+          "rrf_score": 0.015625,
+          "retrieval_ranks": {
+            "sparse": 4
+          }
+        },
+        {
+          "evidence_id": "ev_f7c41c8f824b386a8aac",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第3页 / 第十一条",
+          "document_type": "行政法规",
+          "rerank_score": 4.771094,
+          "rrf_score": 0.028006,
+          "retrieval_ranks": {
+            "dense": 14,
+            "sparse": 9
+          }
+        },
+        {
+          "evidence_id": "ev_01beff432753df96a7c2",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第1-2页 / 第四条",
+          "document_type": "行政法规",
+          "rerank_score": 4.553907,
+          "rrf_score": 0.051877,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 1,
+            "authority_dense": 2
+          }
+        }
+      ],
+      "question": "勘察单位在建设工程安全生产中承担什么责任？"
+    },
+    {
+      "id": "Q13",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_367a8470633f0ced27f9",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第3-4页 / 第十三条",
+          "document_type": "行政法规",
+          "rerank_score": 4.562602,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_6cbb9dc2037914881ed7",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7-8页 / 第二十六条",
+          "document_type": "行政法规",
+          "rerank_score": 1.572802,
+          "rrf_score": 0.035484,
+          "retrieval_ranks": {
+            "dense": 2,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_fb2e85496c6ffe06c5ef",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第8页 / 第二十七条",
+          "document_type": "行政法规",
+          "rerank_score": 0.925561,
+          "rrf_score": 0.032353,
+          "retrieval_ranks": {
+            "dense": 8,
+            "authority_dense": 8
+          }
+        },
+        {
+          "evidence_id": "ev_f602c1cab9a5215d308f",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第8-9页 / 第二十八条",
+          "document_type": "行政法规",
+          "rerank_score": 0.849875,
+          "rrf_score": 0.032836,
+          "retrieval_ranks": {
+            "dense": 7,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_aca976c4309020cf4335",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第12页 / 第三十三条",
+          "document_type": "法律",
+          "rerank_score": 0.772547,
+          "rrf_score": 0.04846,
+          "retrieval_ranks": {
+            "dense": 4,
+            "sparse": 11,
+            "authority_dense": 4
+          }
+        }
+      ],
+      "question": "设计单位如何考虑施工安全？"
+    },
+    {
+      "id": "Q14",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_9d761dce1614592c1a8d",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第6页 / 第二十一条",
+          "document_type": "行政法规",
+          "rerank_score": 7.558545,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_0766707c299d21ed8482",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第21-22页 / 第六十六条",
+          "document_type": "行政法规",
+          "rerank_score": 6.676659,
+          "rrf_score": 0.050635,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 6,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_c6c56fe52e002752d63b",
+          "title": "惠城区合生上观国际七期项目建筑工地“10·13”坠亡事故调查报告",
+          "locator": "第二十一条",
+          "document_type": "事故调查材料",
+          "rerank_score": 5.96469,
+          "rrf_score": 0.030835,
+          "retrieval_ranks": {
+            "dense": 8,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_11b8ae04d0a7422b328f",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第11页 / 第三十六条",
+          "document_type": "行政法规",
+          "rerank_score": 5.775731,
+          "rrf_score": 0.046373,
+          "retrieval_ranks": {
+            "dense": 13,
+            "sparse": 9,
+            "authority_dense": 6
+          }
+        },
+        {
+          "evidence_id": "ev_66b6c40075a3595ad564",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第7页 / 第二十一条",
+          "document_type": "法律",
+          "rerank_score": 4.26942,
+          "rrf_score": 0.033973,
+          "retrieval_ranks": {
+            "dense": 7,
+            "authority_dense": 3
+          }
+        }
+      ],
+      "question": "施工单位主要负责人对安全生产负什么责任？"
+    },
+    {
+      "id": "Q15",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_9d761dce1614592c1a8d",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第6页 / 第二十一条",
+          "document_type": "行政法规",
+          "rerank_score": 5.604832,
+          "rrf_score": 0.036066,
+          "retrieval_ranks": {
+            "dense": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_11b8ae04d0a7422b328f",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第11页 / 第三十六条",
+          "document_type": "行政法规",
+          "rerank_score": 4.283351,
+          "rrf_score": 0.032264,
+          "retrieval_ranks": {
+            "dense": 14,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_615210e3f563d7464913",
+          "title": "江西丰城发电厂“11·24”冷却塔施工平台坍塌特别重大事故调查报告",
+          "locator": "第55-57页 / 第六十六条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.61359,
+          "rrf_score": 0.015873,
+          "retrieval_ranks": {
+            "sparse": 3
+          }
+        },
+        {
+          "evidence_id": "ev_1caa96db12165115553c",
+          "title": "惠城水口惠霞高速水口特大桥项目工地“2024·1·7”一般触电事故调查报告",
+          "locator": "第十八条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.380988,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_0766707c299d21ed8482",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第21-22页 / 第六十六条",
+          "document_type": "行政法规",
+          "rerank_score": 3.071727,
+          "rrf_score": 0.050868,
+          "retrieval_ranks": {
+            "dense": 5,
+            "sparse": 2,
+            "authority_dense": 2
+          }
+        }
+      ],
+      "question": "项目负责人有哪些施工安全职责？"
+    },
+    {
+      "id": "Q16",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_49f5763db4c19c4829ef",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7页 / 第二十三条",
+          "document_type": "行政法规",
+          "rerank_score": 4.480465,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_6cbb9dc2037914881ed7",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7-8页 / 第二十六条",
+          "document_type": "行政法规",
+          "rerank_score": 4.089718,
+          "rrf_score": 0.033333,
+          "retrieval_ranks": {
+            "sparse": 6,
+            "authority_dense": 6
+          }
+        },
+        {
+          "evidence_id": "ev_74799aa53bcbc3251bbd",
+          "title": "惠城区合生上观国际七期项目建筑工地“10·13”坠亡事故调查报告",
+          "locator": "第二十二条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.33335,
+          "rrf_score": 0.031754,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 4
+          }
+        },
+        {
+          "evidence_id": "ev_5fdb911e109175e33a0c",
+          "title": "惠城区合生上观国际七期项目建筑工地“10·13”坠亡事故调查报告",
+          "locator": "第二条",
+          "document_type": "事故调查材料",
+          "rerank_score": 1.334816,
+          "rrf_score": 0.029958,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 11
+          }
+        },
+        {
+          "evidence_id": "ev_a42c8a9be772bed8f1bb",
+          "title": "江西丰城发电厂“11·24”冷却塔施工平台坍塌特别重大事故调查报告",
+          "locator": "第27-29页 / 第二十三条",
+          "document_type": "事故调查材料",
+          "rerank_score": 0.999789,
+          "rrf_score": 0.029572,
+          "retrieval_ranks": {
+            "dense": 13,
+            "sparse": 3
+          }
+        }
+      ],
+      "question": "专职安全生产管理人员如何开展现场监督？"
+    },
+    {
+      "id": "Q17",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_831a33879dea04977062",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7页 / 第二十四条",
+          "document_type": "行政法规",
+          "rerank_score": 5.83206,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_05c35b033c9c96102d12",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第16-17页 / 第四十九条",
+          "document_type": "法律",
+          "rerank_score": 4.260623,
+          "rrf_score": 0.029762,
+          "retrieval_ranks": {
+            "dense": 12,
+            "sparse": 3
+          }
+        },
+        {
+          "evidence_id": "ev_4e44397e32c710647036",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第15页 / 第五十二条",
+          "document_type": "行政法规",
+          "rerank_score": 3.531996,
+          "rrf_score": 0.033167,
+          "retrieval_ranks": {
+            "dense": 8,
+            "authority_dense": 5
+          }
+        },
+        {
+          "evidence_id": "ev_9d761dce1614592c1a8d",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第6页 / 第二十一条",
+          "document_type": "行政法规",
+          "rerank_score": 3.206502,
+          "rrf_score": 0.035484,
+          "retrieval_ranks": {
+            "dense": 2,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_72bd7f5894dddecf4f2d",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第2页 / 第五条",
+          "document_type": "行政法规",
+          "rerank_score": 2.839027,
+          "rrf_score": 0.031732,
+          "retrieval_ranks": {
+            "dense": 11,
+            "authority_dense": 8
+          }
+        }
+      ],
+      "question": "建设工程分包时安全责任如何划分？"
+    },
+    {
+      "id": "Q18",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_5f3d861fa435f2bceb63",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第9页 / 第二十九条",
+          "document_type": "行政法规",
+          "rerank_score": 3.06624,
+          "rrf_score": 0.046628,
+          "retrieval_ranks": {
+            "dense": 15,
+            "sparse": 5,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_2793e2fc3b849c19b393",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第20页 / 第六十四条",
+          "document_type": "行政法规",
+          "rerank_score": 2.835371,
+          "rrf_score": 0.016393,
+          "retrieval_ranks": {
+            "sparse": 1
+          }
+        },
+        {
+          "evidence_id": "ev_f602c1cab9a5215d308f",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第8-9页 / 第二十八条",
+          "document_type": "行政法规",
+          "rerank_score": 2.481742,
+          "rrf_score": 0.050991,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 7,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_04b8e883ee9b589152cf",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第10-11页 / 第三十四条",
+          "document_type": "行政法规",
+          "rerank_score": 2.290828,
+          "rrf_score": 0.035484,
+          "retrieval_ranks": {
+            "dense": 2,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_0fd9a832a78edf5e74dc",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第20-21页 / 第六十五条",
+          "document_type": "行政法规",
+          "rerank_score": 1.96811,
+          "rrf_score": 0.015625,
+          "retrieval_ranks": {
+            "sparse": 4
+          }
+        }
+      ],
+      "question": "施工现场临时设施和安全防护有什么要求？"
+    },
+    {
+      "id": "Q19",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_7d04337ada40c9baabc6",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第七条",
+          "document_type": "监管文件",
+          "rerank_score": 6.674963,
+          "rrf_score": 0.051357,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 3,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_6cbb9dc2037914881ed7",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7-8页 / 第二十六条",
+          "document_type": "行政法规",
+          "rerank_score": 4.777686,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_d89b6344726230239534",
+          "title": "房屋市政工程生产安全重大事故隐患判定标准（2022版）",
+          "locator": "第五条",
+          "document_type": "监管文件",
+          "rerank_score": 3.049265,
+          "rrf_score": 0.05105,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 2,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_d12b6b50229a2fe1799a",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第十一条",
+          "document_type": "监管文件",
+          "rerank_score": -0.100627,
+          "rrf_score": 0.032264,
+          "retrieval_ranks": {
+            "sparse": 14,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_6b600e818f933cf0589d",
+          "title": "惠州市鹅城大桥及引道工程（江北段）“12·6”一般物体打击事故调查报告",
+          "locator": "第九十七条",
+          "document_type": "事故调查材料",
+          "rerank_score": -0.474744,
+          "rrf_score": 0.027619,
+          "retrieval_ranks": {
+            "dense": 10,
+            "sparse": 15
+          }
+        }
+      ],
+      "question": "深基坑工程是否需要专项施工方案？"
+    },
+    {
+      "id": "Q20",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_6cbb9dc2037914881ed7",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第7-8页 / 第二十六条",
+          "document_type": "行政法规",
+          "rerank_score": 3.886545,
+          "rrf_score": 0.052459,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_cde0e88586558028cb94",
+          "title": "起重信号司索作业安全操作规程",
+          "locator": "第74页 / 段落4",
+          "document_type": "操作规程",
+          "rerank_score": 1.110645,
+          "rrf_score": 0.031281,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_0fd9a832a78edf5e74dc",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第20-21页 / 第六十五条",
+          "document_type": "行政法规",
+          "rerank_score": 1.081576,
+          "rrf_score": 0.015385,
+          "retrieval_ranks": {
+            "sparse": 5
+          }
+        },
+        {
+          "evidence_id": "ev_61bcfb6748d9a953e8d3",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第5页 / 第十七条",
+          "document_type": "行政法规",
+          "rerank_score": 0.141876,
+          "rrf_score": 0.051109,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 4,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_b12f353fac99185636b5",
+          "title": "珑誉花园项目建筑工地“1·15”物体打击事故调查报告",
+          "locator": "第五十四条",
+          "document_type": "事故调查材料",
+          "rerank_score": -0.232991,
+          "rrf_score": 0.028986,
+          "retrieval_ranks": {
+            "dense": 9,
+            "sparse": 9
+          }
+        }
+      ],
+      "question": "起重吊装工程专项方案由谁编制审核？"
+    },
+    {
+      "id": "Q21",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_b9d2817cb8d77abd2bd7",
+          "title": "建筑架子工作业安全操作规程",
+          "locator": "段落1",
+          "document_type": "操作规程",
+          "rerank_score": 4.144266,
+          "rrf_score": 0.031054,
+          "retrieval_ranks": {
+            "dense": 7,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_3683834dbdb8cece52e9",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第5-6页 / 第十九条",
+          "document_type": "行政法规",
+          "rerank_score": 3.503822,
+          "rrf_score": 0.032381,
+          "retrieval_ranks": {
+            "dense": 15,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_61bcfb6748d9a953e8d3",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第5页 / 第十七条",
+          "document_type": "行政法规",
+          "rerank_score": 3.43032,
+          "rrf_score": 0.049982,
+          "retrieval_ranks": {
+            "dense": 5,
+            "sparse": 7,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_06c21b144b4079641bd4",
+          "title": "房屋市政工程生产安全重大事故隐患判定标准（2022版）",
+          "locator": "第七条",
+          "document_type": "监管文件",
+          "rerank_score": 3.118651,
+          "rrf_score": 0.034304,
+          "retrieval_ranks": {
+            "sparse": 1,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_dbd563d8dd40719a5b3e",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第5页 / 第十八条",
+          "document_type": "行政法规",
+          "rerank_score": 2.666629,
+          "rrf_score": 0.032868,
+          "retrieval_ranks": {
+            "dense": 14,
+            "authority_dense": 2
+          }
+        }
+      ],
+      "question": "脚手架工程需要哪些安全管理措施？"
+    },
+    {
+      "id": "Q22",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_86c47bc807669b798184",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第10页 / 第三十二条",
+          "document_type": "行政法规",
+          "rerank_score": 5.660264,
+          "rrf_score": 0.049846,
+          "retrieval_ranks": {
+            "dense": 3,
+            "sparse": 7,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_04b8e883ee9b589152cf",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第10-11页 / 第三十四条",
+          "document_type": "行政法规",
+          "rerank_score": 2.733168,
+          "rrf_score": 0.035484,
+          "retrieval_ranks": {
+            "dense": 2,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_85d399048e71d20406ea",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第19页 / 第六十二条",
+          "document_type": "行政法规",
+          "rerank_score": 2.572936,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_a00337edebc2ac0487bb",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第10页 / 第三十三条",
+          "document_type": "行政法规",
+          "rerank_score": 1.226277,
+          "rrf_score": 0.031346,
+          "retrieval_ranks": {
+            "dense": 13,
+            "authority_dense": 8
+          }
+        },
+        {
+          "evidence_id": "ev_492ad2092e0451e58177",
+          "title": "新力花园项目建筑工地“9·23”高处坠亡事故的调查报告",
+          "locator": "段落1 / 片段6",
+          "document_type": "事故调查材料",
+          "rerank_score": 1.06178,
+          "rrf_score": 0.015385,
+          "retrieval_ranks": {
+            "sparse": 5
+          }
+        }
+      ],
+      "question": "施工单位如何为作业人员提供防护用品？"
+    },
+    {
+      "id": "Q23",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_8fc6e05b4cd52bd16216",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第14-15页 / 第五十条",
+          "document_type": "行政法规",
+          "rerank_score": 4.177285,
+          "rrf_score": 0.019672,
+          "retrieval_ranks": {
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_4539b6e047ff118b66e1",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第27页 / 第八十三条",
+          "document_type": "法律",
+          "rerank_score": 3.928486,
+          "rrf_score": 0.032954,
+          "retrieval_ranks": {
+            "sparse": 9,
+            "authority_dense": 5
+          }
+        },
+        {
+          "evidence_id": "ev_8135e723ed09ccd4d5b1",
+          "title": "惠州市上东平海伦湾二期建筑工地“6.15”事故的调查报告",
+          "locator": "段落1 / 片段4",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.503489,
+          "rrf_score": 0.031054,
+          "retrieval_ranks": {
+            "dense": 7,
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_9aaded4d8118d455780f",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第15页 / 第五十一条",
+          "document_type": "行政法规",
+          "rerank_score": 3.072514,
+          "rrf_score": 0.019355,
+          "retrieval_ranks": {
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_a325e363601c1078e7b0",
+          "title": "惠州市翰欣实业有限公司在建厂房工地“12.21”事故的调查报告",
+          "locator": "段落1 / 片段4",
+          "document_type": "事故调查材料",
+          "rerank_score": 2.885129,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "dense": 2
+          }
+        }
+      ],
+      "question": "施工现场发生事故后应如何报告？"
+    },
+    {
+      "id": "Q24",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [
+        "建设工程安全生产管理条例"
+      ],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_a5570c7a41cff25b92e4",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第4页 / 第十四条",
+          "document_type": "行政法规",
+          "rerank_score": 4.297213,
+          "rrf_score": 0.047069,
+          "retrieval_ranks": {
+            "dense": 13,
+            "sparse": 13,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_8512d64be4d332a27e9c",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第17页 / 第五十七条",
+          "document_type": "行政法规",
+          "rerank_score": 4.248084,
+          "rrf_score": 0.034039,
+          "retrieval_ranks": {
+            "sparse": 2,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_fff543653cd75efec258",
+          "title": "江西丰城发电厂“11·24”冷却塔施工平台坍塌特别重大事故调查报告",
+          "locator": "第54页 / 第五十七条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.914058,
+          "rrf_score": 0.032522,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 1
+          }
+        },
+        {
+          "evidence_id": "ev_a6bf42be9491b00608ef",
+          "title": "建设工程安全生产管理条例",
+          "locator": "第13页 / 第四十三条",
+          "document_type": "行政法规",
+          "rerank_score": 3.363098,
+          "rrf_score": 0.01875,
+          "retrieval_ranks": {
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_74799aa53bcbc3251bbd",
+          "title": "惠城区合生上观国际七期项目建筑工地“10·13”坠亡事故调查报告",
+          "locator": "第二十二条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.174844,
+          "rrf_score": 0.029031,
+          "retrieval_ranks": {
+            "dense": 16,
+            "sparse": 3
+          }
+        }
+      ],
+      "question": "监理单位发现安全事故隐患应如何处理？"
+    },
+    {
+      "id": "Q25",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_f0fbf05c85aea63979b9",
+          "title": "交通运输部办公厅关于印发《内河运输船舶重大事故隐患判定标准》的通知",
+          "locator": "第三条",
+          "document_type": "监管文件",
+          "rerank_score": 5.558353,
+          "rrf_score": 0.032836,
+          "retrieval_ranks": {
+            "dense": 7,
+            "authority_dense": 7
+          }
+        },
+        {
+          "evidence_id": "ev_4cae1ecd86e0903531aa",
+          "title": "交通运输部办公厅关于印发《内河运输船舶重大事故隐患判定标准》的通知",
+          "locator": "第一条",
+          "document_type": "监管文件",
+          "rerank_score": 5.246887,
+          "rrf_score": 0.02967,
+          "retrieval_ranks": {
+            "dense": 10,
+            "sparse": 5
+          }
+        },
+        {
+          "evidence_id": "ev_32a4a300179a0fd3392d",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第十六条",
+          "document_type": "监管文件",
+          "rerank_score": 5.068187,
+          "rrf_score": 0.034921,
+          "retrieval_ranks": {
+            "dense": 3,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_94ee68af2601807c9a8b",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第三条",
+          "document_type": "监管文件",
+          "rerank_score": 5.010033,
+          "rrf_score": 0.035484,
+          "retrieval_ranks": {
+            "dense": 2,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_e45fe9f3f73b2f7c250e",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第二条",
+          "document_type": "监管文件",
+          "rerank_score": 4.985813,
+          "rrf_score": 0.051691,
+          "retrieval_ranks": {
+            "dense": 1,
+            "sparse": 4,
+            "authority_dense": 1
+          }
+        }
+      ],
+      "question": "交通运输重大事故隐患如何判定？"
+    },
+    {
+      "id": "Q26",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_d1d700eface9b44ff5d1",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第一条",
+          "document_type": "监管文件",
+          "rerank_score": 5.745015,
+          "rrf_score": 0.047713,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 14,
+            "authority_dense": 3
+          }
+        },
+        {
+          "evidence_id": "ev_e45fe9f3f73b2f7c250e",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第二条",
+          "document_type": "监管文件",
+          "rerank_score": 5.380945,
+          "rrf_score": 0.048824,
+          "retrieval_ranks": {
+            "dense": 5,
+            "sparse": 11,
+            "authority_dense": 2
+          }
+        },
+        {
+          "evidence_id": "ev_ed90aa4aef816d58cede",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第十五条",
+          "document_type": "监管文件",
+          "rerank_score": 4.675021,
+          "rrf_score": 0.033456,
+          "retrieval_ranks": {
+            "dense": 8,
+            "authority_dense": 4
+          }
+        },
+        {
+          "evidence_id": "ev_94ee68af2601807c9a8b",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第三条",
+          "document_type": "监管文件",
+          "rerank_score": 4.620016,
+          "rrf_score": 0.035545,
+          "retrieval_ranks": {
+            "dense": 3,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_48381d7b489074ab1b6d",
+          "title": "自贸区象屿园区“4·9”一般 车辆伤害事故调查报告",
+          "locator": "第十七条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.751869,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "sparse": 2
+          }
+        }
+      ],
+      "question": "道路运输企业应如何排查重大事故隐患？"
+    },
+    {
+      "id": "Q27",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_9a5f1befcf9b7e35e40f",
+          "title": "湖南郴州宜凤高速“6·26”特别重大道路交通事故调查报告",
+          "locator": "第8-9页 / 前言 / 片段5",
+          "document_type": "事故调查材料",
+          "rerank_score": 2.432341,
+          "rrf_score": 0.016393,
+          "retrieval_ranks": {
+            "dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_611868f77f16378330c1",
+          "title": "陕西安康京昆高速“8 •10 ”特别重大道路交通事故调查报告",
+          "locator": "第13页 / 前言 / 片段8",
+          "document_type": "事故调查材料",
+          "rerank_score": 0.310016,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_f7f99ff6df213fe00f06",
+          "title": "湖南郴州宜凤高速“6·26”特别重大道路交通事故调查报告",
+          "locator": "第9-11页 / 第二十二条",
+          "document_type": "事故调查材料",
+          "rerank_score": -3.058537,
+          "rrf_score": 0.016393,
+          "retrieval_ranks": {
+            "sparse": 1
+          }
+        },
+        {
+          "evidence_id": "ev_ae04e51081693dd23610",
+          "title": "交通运输部办公厅关于印发《公路水运工程生产安全重大事故隐患判定标准》的通知",
+          "locator": "第四条",
+          "document_type": "监管文件",
+          "rerank_score": -4.226244,
+          "rrf_score": 0.018462,
+          "retrieval_ranks": {
+            "authority_dense": 5
+          }
+        },
+        {
+          "evidence_id": "ev_f0fbf05c85aea63979b9",
+          "title": "交通运输部办公厅关于印发《内河运输船舶重大事故隐患判定标准》的通知",
+          "locator": "第三条",
+          "document_type": "监管文件",
+          "rerank_score": -4.95399,
+          "rrf_score": 0.019672,
+          "retrieval_ranks": {
+            "authority_dense": 1
+          }
+        }
+      ],
+      "question": "典型交通事故的直接原因是什么？"
+    },
+    {
+      "id": "Q28",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_a4233c6e9a91b1c6c6c2",
+          "title": "湖里金山“7·20”一般道路交通 事故调查报告",
+          "locator": "第一百一十四条",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.857064,
+          "rrf_score": 0.029462,
+          "retrieval_ranks": {
+            "dense": 2,
+            "sparse": 15
+          }
+        },
+        {
+          "evidence_id": "ev_cd1a20b8905993f01be5",
+          "title": "陕西咸阳“5·15”特别重大道路交通事故调查报告",
+          "locator": "段落1 / 片段12",
+          "document_type": "事故调查材料",
+          "rerank_score": 4.020421,
+          "rrf_score": 0.016393,
+          "retrieval_ranks": {
+            "dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_8c8dd1c171a551550635",
+          "title": "滨保高速天津“10·7” 特别重大道路交通事故调查报告",
+          "locator": "第二十二条",
+          "document_type": "事故调查材料",
+          "rerank_score": 3.25678,
+          "rrf_score": 0.029631,
+          "retrieval_ranks": {
+            "dense": 8,
+            "sparse": 7
+          }
+        },
+        {
+          "evidence_id": "ev_75734f230e834684b03b",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第28页 / 第八十六条",
+          "document_type": "法律",
+          "rerank_score": 2.915663,
+          "rrf_score": 0.036066,
+          "retrieval_ranks": {
+            "sparse": 1,
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_1e3f8b12c28125177162",
+          "title": "“7·23”甬温线特别重大铁路交通事故调查报告",
+          "locator": "段落1 / 片段2",
+          "document_type": "事故调查材料",
+          "rerank_score": 0.668677,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "sparse": 2
+          }
+        }
+      ],
+      "question": "交通事故调查报告通常提出哪些整改措施？"
+    },
+    {
+      "id": "Q29",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": true,
+      "expected_title_terms": [],
+      "result_count": 5,
+      "top_results": [
+        {
+          "evidence_id": "ev_4d0b9785dbafd35eabc8",
+          "title": "广东省惠州市“11·28”一般叉车碰撞事故调查报告",
+          "locator": "前言 / 片段6",
+          "document_type": "事故调查材料",
+          "rerank_score": 0.25299,
+          "rrf_score": 0.030777,
+          "retrieval_ranks": {
+            "dense": 6,
+            "sparse": 4
+          }
+        },
+        {
+          "evidence_id": "ev_4fa83c0f642ce30fbba6",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第28-29页 / 第八十七条",
+          "document_type": "法律",
+          "rerank_score": -0.699483,
+          "rrf_score": 0.019672,
+          "retrieval_ranks": {
+            "authority_dense": 1
+          }
+        },
+        {
+          "evidence_id": "ev_a3d742889eb7f8a5bc66",
+          "title": "湖南郴州宜凤高速“6·26”特别重大道路交通事故调查报告",
+          "locator": "第24-25页 / 第二十三条",
+          "document_type": "事故调查材料",
+          "rerank_score": -0.749904,
+          "rrf_score": 0.016393,
+          "retrieval_ranks": {
+            "sparse": 1
+          }
+        },
+        {
+          "evidence_id": "ev_9c7c076d51370bc80444",
+          "title": "“7·23”甬温线特别重大铁路交通事故调查报告",
+          "locator": "段落1 / 片段16",
+          "document_type": "事故调查材料",
+          "rerank_score": -1.494748,
+          "rrf_score": 0.016129,
+          "retrieval_ranks": {
+            "sparse": 2
+          }
+        },
+        {
+          "evidence_id": "ev_b3ee67b4abd35045a2c1",
+          "title": "中华人民共和国安全生产法",
+          "locator": "第4页 / 第九条",
+          "document_type": "法律",
+          "rerank_score": -1.609708,
+          "rrf_score": 0.01791,
+          "retrieval_ranks": {
+            "authority_dense": 7
+          }
+        }
+      ],
+      "question": "事故责任认定和监管问题如何区分？"
+    },
+    {
+      "id": "Q30",
+      "hit": true,
+      "title_hit": true,
+      "citation_valid": true,
+      "expect_covered": false,
+      "expected_title_terms": [],
+      "result_count": 0,
+      "top_results": [],
+      "question": "某企业未公开的内部应急预案具体内容是什么？"
+    }
+  ],
+  "status": "通过"
+}

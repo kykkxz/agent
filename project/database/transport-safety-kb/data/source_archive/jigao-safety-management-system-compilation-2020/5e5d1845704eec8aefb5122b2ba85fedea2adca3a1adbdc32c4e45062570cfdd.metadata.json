@@ -1,0 +1,159 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "jigao-safety-management-system-compilation-2020",
+  "requested_uri": "https://www.jigaojituan.com/aqzd/34352.jhtml",
+  "final_uri": "https://www.jigaojituan.com/aqzd/34352.jhtml",
+  "retrieved_at": "2026-08-11T13:26:01+00:00",
+  "status_code": 200,
+  "media_type": "text/html",
+  "raw_sha256": "5e5d1845704eec8aefb5122b2ba85fedea2adca3a1adbdc32c4e45062570cfdd",
+  "raw_path": "source_archive\\jigao-safety-management-system-compilation-2020\\5e5d1845704eec8aefb5122b2ba85fedea2adca3a1adbdc32c4e45062570cfdd.html",
+  "transport": "curl",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\jigao-safety-management-system-compilation-2020\\5e5d1845704eec8aefb5122b2ba85fedea2adca3a1adbdc32c4e45062570cfdd.metadata.json",
+  "title": "吉高集团安全生产管理制度汇编",
+  "publisher": "吉林省高速公路集团有限公司",
+  "document_type": "企业制度",
+  "plugin": "catalog_file_plugin",
+  "source_metadata": {
+    "source_kind": "enterprise_system_plugin",
+    "browser_verified": true,
+    "browser_verified_at": "2026-08-11",
+    "covered_entities": [
+      "吉林省高速公路集团有限公司",
+      "吉林省路桥工程（集团）有限公司",
+      "吉林省吉高服务区管理有限公司",
+      "吉林省高速公路集团经营开发有限公司",
+      "吉林省高速公路建设投资有限公司",
+      "吉林高速公路股份有限公司",
+      "吉林省吉高融资担保有限公司",
+      "吉林省交通实业发展有限公司",
+      "吉林省吉高智慧交通科技有限公司",
+      "吉林省吉高路业发展有限公司",
+      "吉林省吉高工程咨询有限公司",
+      "吉林省高速公路集团试验检测有限公司",
+      "松长高速项目",
+      "贵都扩容高速TJ-07标段",
+      "白临高速项目",
+      "长春都市圈西环高速项目",
+      "吉高集团数转项目",
+      "松长高速公路01工区",
+      "长春都市圈西环高速公路YNTJ-02工区",
+      "长春都市圈西环高速01工区"
+    ],
+    "coverage_evidence_urls": [
+      "https://www.jigaojituan.com/cydw/index.jhtml",
+      "https://www.jigaojituan.com/gsjs/index.jhtml",
+      "https://www.jigaojituan.com/gsjs/index_2.jhtml",
+      "https://www.jigaojituan.com/gsjs/index_3.jhtml",
+      "https://www.jigaojituan.com/gsjs/index_4.jhtml"
+    ],
+    "split_sections": [
+      {
+        "heading": "第二章 安全生产条件审查制度",
+        "end_heading": "第三章 安全生产责任制度",
+        "title": "安全生产条件审查制度"
+      },
+      {
+        "heading": "第三章 安全生产责任制度",
+        "end_heading": "第四章 安全生产费用提取和使用制度",
+        "title": "安全生产责任制度"
+      },
+      {
+        "heading": "第四章 安全生产费用提取和使用制度",
+        "end_heading": "第五章 安全生产会议制度",
+        "title": "安全生产费用提取和使用制度"
+      },
+      {
+        "heading": "第五章 安全生产会议制度",
+        "end_heading": "第六章 安全生产教育和培训制度",
+        "title": "安全生产会议制度"
+      },
+      {
+        "heading": "第六章 安全生产教育和培训制度",
+        "end_heading": "第七章 风险评估与分级管控制度",
+        "title": "安全生产教育和培训制度"
+      },
+      {
+        "heading": "第七章 风险评估与分级管控制度",
+        "end_heading": "第八章 生产安全事故隐患排查治理制度",
+        "title": "风险评估与分级管控制度"
+      },
+      {
+        "heading": "第八章 生产安全事故隐患排查治理制度",
+        "end_heading": "第九章应急管理制度",
+        "title": "生产安全事故隐患排查治理制度"
+      },
+      {
+        "heading": "第九章应急管理制度",
+        "end_heading": "第十章 消防安全制度",
+        "title": "应急管理制度"
+      },
+      {
+        "heading": "第十章 消防安全制度",
+        "end_heading": "第十一章 生产安全事故报告和调查处理制度",
+        "title": "消防安全制度"
+      },
+      {
+        "heading": "第十一章 生产安全事故报告和调查处理制度",
+        "end_heading": "第十二章 与从业人员的劳动合同制度",
+        "title": "生产安全事故报告和调查处理制度"
+      },
+      {
+        "heading": "第十二章 与从业人员的劳动合同制度",
+        "end_heading": "第十三章 职业危害预防制度",
+        "title": "与从业人员的劳动合同制度"
+      },
+      {
+        "heading": "第十三章 职业危害预防制度",
+        "end_heading": "第十四章 劳动防护用品管理制度",
+        "title": "职业危害预防制度"
+      },
+      {
+        "heading": "第十四章 劳动防护用品管理制度",
+        "end_heading": "第十五章 安全生产承诺和报告制度",
+        "title": "劳动防护用品管理制度"
+      },
+      {
+        "heading": "第十五章 安全生产承诺和报告制度",
+        "end_heading": "第十六章 重大隐患监管挂牌督办制度",
+        "title": "安全生产承诺和报告制度"
+      },
+      {
+        "heading": "第十六章 重大隐患监管挂牌督办制度",
+        "end_heading": "第十七章 安全生产约谈实施办法",
+        "title": "重大隐患监管挂牌督办制度"
+      },
+      {
+        "heading": "第十七章 安全生产约谈实施办法",
+        "end_heading": "第十八章安全生产责任保险制度",
+        "title": "安全生产约谈实施办法"
+      },
+      {
+        "heading": "第十八章安全生产责任保险制度",
+        "end_heading": "第十九章重大隐患排查治理“双报告”制度",
+        "title": "安全生产责任保险制度"
+      },
+      {
+        "heading": "第十九章重大隐患排查治理“双报告”制度",
+        "end_heading": "第二十章安全奖惩考核制度",
+        "title": "重大隐患排查治理“双报告”制度"
+      },
+      {
+        "heading": "第二十章安全奖惩考核制度",
+        "end_heading": "第二十一章安全生产事故统计分析管理制度",
+        "title": "安全奖惩考核制度"
+      },
+      {
+        "heading": "第二十一章安全生产事故统计分析管理制度",
+        "end_heading": "第二十二章 安全生产事故责任追究制度",
+        "title": "安全生产事故统计分析管理制度"
+      },
+      {
+        "heading": "第二十二章 安全生产事故责任追究制度",
+        "title": "安全生产事故责任追究制度"
+      }
+    ]
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}

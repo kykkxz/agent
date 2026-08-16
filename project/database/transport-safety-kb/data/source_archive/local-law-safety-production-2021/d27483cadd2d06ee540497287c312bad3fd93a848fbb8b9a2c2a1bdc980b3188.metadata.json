@@ -1,0 +1,23 @@
+{
+  "task_id": "collect-20260811-212521-3ff8c2dc",
+  "source_id": "local-law-safety-production-2021",
+  "requested_uri": "file:///H:/wd/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/transport-safety-kb/data/%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7%E6%B3%95.pdf",
+  "final_uri": "file:///H:/wd/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/transport-safety-kb/data/%E5%AE%89%E5%85%A8%E7%94%9F%E4%BA%A7%E6%B3%95.pdf",
+  "retrieved_at": "2026-08-11T13:25:21+00:00",
+  "status_code": 200,
+  "media_type": "application/pdf",
+  "raw_sha256": "d27483cadd2d06ee540497287c312bad3fd93a848fbb8b9a2c2a1bdc980b3188",
+  "raw_path": "source_archive\\local-law-safety-production-2021\\d27483cadd2d06ee540497287c312bad3fd93a848fbb8b9a2c2a1bdc980b3188.pdf",
+  "transport": "local-file",
+  "transport_note": "",
+  "archive_metadata_path": "source_archive\\local-law-safety-production-2021\\d27483cadd2d06ee540497287c312bad3fd93a848fbb8b9a2c2a1bdc980b3188.metadata.json",
+  "title": "中华人民共和国安全生产法",
+  "publisher": "全国人民代表大会常务委员会",
+  "document_type": "法律",
+  "plugin": "local_file_plugin",
+  "source_metadata": {
+    "local_primary_source": true,
+    "local_path": "H:\\wd\\新建文件夹\\transport-safety-kb\\data\\安全生产法.pdf"
+  },
+  "archive_policy": "原始字节按 SHA-256 命名，不改写内容"
+}
